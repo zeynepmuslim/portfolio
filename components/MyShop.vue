@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 mx-auto h-96 mt-20">
+  <div class="w-3/4 mx-auto h-auto mt-20">
     <span class="font-nick text-5xl text-center"
       ><mark>küçük işletmem</mark></span>
       <div class=" shadow-xl h-52 w-4/5 rounded-3xl mx-auto">
@@ -11,11 +11,18 @@
         <span class="font-bebas text-3xl">RMB TASARIM</span>
         <span class="font-robol text-xl row-span-2">Kendini ifade etmenin en güzel yolu: tasarım sticker, broş ve aksesuarlar.</span>
       </div></div>
-      
-
-      
-        
-
+      </div>
+      <div class="h-24 w-4/5 mx-auto my-7 grid grid-cols-2">
+        <div class=" grid grid-rows-2">
+          <span class="font-robol text-center pt-4">Yapılış aşamaları ve diğer her şey için</span>
+          <div class="mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black w-2/5 hover:text-yellow rounded-full h-10 text-center font-bebas pt-2 text-xl">
+          Instgaram</div>
+        </div>
+        <div class="grid grid-rows-2">
+          <span class="font-robol text-center pt-4">Ürünleri incelemek ve satın almak için.</span>
+          <div class="mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black w-2/5 hover:text-yellow rounded-full h-10 text-center font-bebas pt-2 text-xl">
+          Mağaza</div>
+        </div>
       </div>
   </div>
 </template>

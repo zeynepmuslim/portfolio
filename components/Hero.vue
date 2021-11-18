@@ -13,11 +13,11 @@
     </div>
     <div class="grid grid-cols-7 py-7 col-span-2 pr-11">
       <div></div>
-      <img class="mx-auto h-12" src="../src/vectors/instagram.svg">
-      <img class="mx-auto h-12" src="../src/vectors/linkedin.svg">
-      <img class="mx-auto h-12" src="../src/vectors/youtube.svg">
-      <img class="mx-auto h-12" src="../src/vectors/github.svg">
-      <img class="mx-auto h-12" src="../src/vectors/shop.svg">
+      <div class="mx-auto w-12 h-12 bg-instagramYellow hover:bg-instagram bg-contain bg-no-repeat"></div>
+      <div class="mx-auto w-12 h-12 bg-linkedinYellow hover:bg-linkedin bg-contain bg-no-repeat"></div>
+      <div class="mx-auto w-12 h-12 bg-youtubeYellow hover:bg-youtube bg-contain bg-no-repeat"></div>
+      <div class="mx-auto w-12 h-12 bg-githubYellow hover:bg-github bg-contain bg-no-repeat"></div>
+      <div class="mx-auto w-12 h-12 bg-shopYellow hover:bg-shop bg-contain bg-no-repeat"></div>
       <div></div>
     </div>
   </div>

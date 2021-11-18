@@ -57,7 +57,7 @@ mark {
   line-height: 0.03em;
   background: #ffcf16;
   padding-bottom: 0.3em;
-  width: 5.8em;
+  width: 6em;
   border-radius: 20px;
 }
 </style>

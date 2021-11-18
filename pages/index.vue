@@ -2,17 +2,21 @@
 <div>
     <Hero />
     <MyApps />
+    <MyShop />
 </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero.vue'
 import MyApps from '~/components/myApps.vue'
+import MyShop from '~/components/MyShop.vue'
+
 export default {
   name: 'Index',
   components: {
     Hero,
-    MyApps
+    MyApps,
+    MyShop
   },
 }
 </script>

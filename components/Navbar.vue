@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-full">
+  <div class="w-full fixed -mt-16 bg-white">
     <ul class="bg-white h-7 grid grid-cols-7 font-bebas text-center text-l mt-1 align-baseline">
       <li></li>
       <li><NuxtLink to="/">ANA SAYFA</NuxtLink></li>
@@ -10,13 +10,13 @@
       <li></li>
     </ul>
     <div class="h-2 grid grid-cols-7">
-      <div class="bg-softYellow h-1.5"></div>
-      <div class="bg-yellow h-2.5 rounded-b-md"></div>
-      <div class="bg-softYellow h-1.5"></div>
-      <div class="bg-softYellow h-1.5"></div>
-      <div class="bg-softYellow h-1.5"></div>
-      <div class="bg-softYellow h-1.5"></div>
-      <div class="bg-softYellow h-1.5"></div>
+      <div class="bg-softYellow h-2"></div>
+      <div class="bg-yellow h-3 rounded-b-md"></div>
+      <div class="bg-softYellow h-2"></div>
+      <div class="bg-softYellow h-2"></div>
+      <div class="bg-softYellow h-2"></div>
+      <div class="bg-softYellow h-2"></div>
+      <div class="bg-softYellow h-2"></div>
     </div>
   </div>
 </template>

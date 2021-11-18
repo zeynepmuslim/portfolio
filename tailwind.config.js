@@ -14,6 +14,8 @@ module.exports = {
       colors: {
         'yellow': '#FFCF16',
         'softYellow': '#FFF5CF',
+        'lightGray': '#FAFAFA',
+        'gray': '#E5E5E5'
       },
       backgroundImage: {
         'four': "url('~/src/img/four.png')",

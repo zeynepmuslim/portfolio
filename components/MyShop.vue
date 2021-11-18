@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 mx-auto h-auto mt-20">
+  <div class="w-3/4 mx-auto h-auto mt-16">
     <span class="font-nick text-5xl text-center"
       ><mark>küçük işletmem</mark></span>
       <div class=" shadow-xl h-52 w-4/5 rounded-3xl mx-auto">

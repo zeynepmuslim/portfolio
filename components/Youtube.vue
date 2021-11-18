@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 mx-auto h-96 mt-20">
+  <div class="w-3/4 mx-auto h-auto mt-20">
     <span class="font-nick text-5xl text-center"><mark>youtube</mark></span>
     <div class="grid grid-cols-4 ">
       <Thumnail>

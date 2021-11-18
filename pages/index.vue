@@ -3,6 +3,7 @@
     <Hero />
     <MyApps />
     <MyShop />
+    <Youtube />
 </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Hero from '~/components/Hero.vue'
 import MyApps from '~/components/myApps.vue'
 import MyShop from '~/components/MyShop.vue'
+import Youtube from '~/components/Youtube.vue'
 
 export default {
   name: 'Index',
   components: {
     Hero,
     MyApps,
-    MyShop
+    MyShop,
+    Youtube
   },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full fixed -mt-16 bg-white">
+  <div class="w-full fixed -mt-16 bg-white mb-6">
     <ul class="bg-white h-7 grid grid-cols-7 font-bebas text-center text-l mt-1 align-baseline">
       <li></li>
       <li><NuxtLink to="/">ANA SAYFA</NuxtLink></li>

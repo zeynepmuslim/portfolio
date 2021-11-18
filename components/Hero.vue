@@ -1,5 +1,5 @@
 <template>
-  <div class="w-3/4 mx-auto h-96 grid grid-cols-3 grid-row-4 my-16">
+  <div class="w-3/4 mx-auto h-96 grid grid-cols-3 grid-row-4 my-16 pt-10">
     <div class="row-span-4 ">
       <img class="h-96 mx-auto" src="../src/vectors/avatar.svg" />
     </div>

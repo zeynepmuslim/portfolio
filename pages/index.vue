@@ -4,7 +4,6 @@
     <MyApps />
     <MyShop />
     <Youtube />
-    <MyHelpers />
 </div>
 </template>
 
@@ -13,7 +12,7 @@ import Hero from '~/components/Hero.vue'
 import MyApps from '~/components/myApps.vue'
 import MyShop from '~/components/MyShop.vue'
 import Youtube from '~/components/Youtube.vue'
-import MyHelpers from '~/components/MyHelpers.vue'
+// import MyHelpers from '~/components/MyHelpers.vue'
 
 export default {
   name: 'Index',
@@ -21,8 +20,8 @@ export default {
     Hero,
     MyApps,
     MyShop,
-    Youtube,
-    MyHelpers
+      Youtube,
+ //     MyHelpers
   },
 }
 </script>

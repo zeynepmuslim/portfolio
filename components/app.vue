@@ -1,8 +1,9 @@
 <template>
   <div>
     <div class="grid md:grid-row-7">
-      <div class="mx-auto xl:row-span-2 xl:h-20
-                          md:row-span-2 md:h-16">
+      <div class="mx-auto xl:h-20
+                          md:h-16
+                          sm:h-14 md:row-span-2">
         <slot name="icon"></slot>
       </div>
       <slot name="title"></slot>
@@ -20,8 +21,9 @@
           mx-auto
           grid
           xl:h-10
-          lg:grid-cols-3 lg:h-8 lg:w-1/2 lg:mt-20
-          md:grid-cols-3 md:h-8 md:w-1/2 md:mt-28
+          lg:mt-20
+          md:mt-28
+          sm:grid-cols-3 sm:h-8 sm:mt-32 md:w-1/2
         "
       >
         <div
@@ -34,13 +36,16 @@
             group-hover:bg-appleYellow
             xl:ml-9 xl:h-6 xl:w-6
             lg:ml-8
-            md:ml-5 md:h-4 md:w-4
+                    md:h-4 md:w-4
+            sm:ml-5 sm:h-3 sm:w-3
+
           "
         ></div>
         <span
           class="font-bebas my-auto xl:text-xl
-                                    lg:text-lg lg:pt-1 lg:pl-2
-                                    md:col-span-2 md:text-md md:pt-1 md:pl-1"
+                                    lg:text-lglg:pl-2
+                                    md:text-md
+                                    sm:col-span-2 sm:text-sm sm:pt-1 sm:pl-1"
           >App Store</span
         >
       </div>

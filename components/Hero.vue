@@ -6,27 +6,32 @@
                xl:h-96 xl:grid-row-4 xl:my-16 xl:pt-10
       lg:w-3/4 lg:h-72 lg:pt-28
       md:w-4/5 md:h-72 md:grid-cols-3 md:pt-28
+      sm:w-9/12 sm:h-72 sm:grid-cols-3 sm:pt-28 sm:grid-row-4
     "
   >
-    <div class="xl:row-span-4 lg:row-span-4 md:row-span-4">
-      <img class="xl:h-96 lg:h-72 md:h-64 mx-auto" src="../src/vectors/avatar.svg" />
+    <div class="xl:row-span-4 lg:row-span-4 md:row-span-4 sm:row-span-3">
+      <img class="xl:h-96 lg:h-72 md:h-64 sm:h-52 mx-auto" src="../src/vectors/avatar.svg" />
     </div>
-    <div class="grid md:row-span-2 md:col-span-2 md:grid-rows-2 md:-mt-6">
+    <div class="grid sm:row-span-2 sm:col-span-2 sm:grid-rows-2 sm:mt-2">
       <span class="font-nick xl:text-7xl
                              lg:text-6xl
-                             md:text-5xl md:px-7 md:pt-8">Selamlar!</span>
-      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl"
+                             md:text-5xl md:px-7 md:pt-8
+                             sm:text-5xl sm:px-7 sm:pt-0
+                             ">Selamlar!</span>
+      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-4xl sm:pl-7"
         >ben,<mark>Zeynep Müslim</mark></span
       >
     </div>
     <div class="font-robol xl:text-2xl xl:pt-3
-                           md:col-span-2 md:px-7 md:text-lg md:-mt-6">
+                           md:col-span-2 md:px-7 md:text-lg md:-mt-6
+                           sm:col-span-2 sm:text-md sm:text-md sm:pl-7 sm:pt-2">
       Gündüz tasarımcı, gece yazılımcı, haftada bir Youtuber geri kalan zamanda
       öğrenci olmaya çalışan biriyim.
     </div>
     <div class="grid lg:grid-cols-7 lg:py-7 lg:col-span-2 lg:pr-11
-                     md:grid-cols-7 md:py-7 md:col-span-2 md:pr-11">
-      <div></div>
+                     md:grid-cols-7 md:py-7 md:col-span-2 md:pr-11
+                     sm:grid-cols-5 sm:py-7 sm:col-span-3">
+      <div class="md:block hidden"></div>
       <div
         class="
           mx-auto
@@ -35,6 +40,7 @@
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
           md:w-9 md:h-9
+          sm:w-9 sm:h-9
         "
       ></div>
       <div
@@ -45,6 +51,7 @@
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
           md:w-9 md:h-9
+          sm:w-9 sm:h-9
         "
       ></div>
       <div
@@ -55,6 +62,7 @@
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
           md:w-9 md:h-9
+          sm:w-9 sm:h-9
         "
       ></div>
       <div
@@ -65,6 +73,7 @@
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
           md:w-9 md:h-9
+          sm:w-9 sm:h-9
         "
       ></div>
       <div
@@ -75,9 +84,10 @@
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
           md:w-9 md:h-9
+          sm:w-9 sm:h-9
         "
       ></div>
-      <div></div>
+      <div class="md:block hidden"></div>
     </div>
   </div>
 </template>

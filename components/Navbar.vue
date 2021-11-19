@@ -27,13 +27,13 @@
       <li class="md:block hidden"></li>
     </ul>
     <div class="grid lg:h-2 lg:grid-cols-7 md:h-2 md:grid-cols-7 grid-cols-5">
-      <div class="bg-softYellow xl:h-2 lg:h-2 md:h-1 md:block hidden"></div>
-      <div class="bg-yellow md:rounded-b-md xl:h-3 lg:h-3 h-1"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2 md:block hidden"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1 md:block hidden"></div>
+      <div class="bg-yellow     lg:h-2 h-1"></div>
+      <div class="bg-softYellow lg:h-2 h-1"></div>
+      <div class="bg-softYellow lg:h-2 h-1"></div>
+      <div class="bg-softYellow lg:h-2 h-1"></div>
+      <div class="bg-softYellow lg:h-2 h-1"></div>
+      <div class="bg-softYellow lg:h-2 md:block hidden"></div>
     </div>
   </div>
 </template>

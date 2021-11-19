@@ -1,10 +1,10 @@
 <template>
-  <div class="w-3/4 mx-auto h-auto mt-20">
-    <span class="font-nick text-5xl text-center"><mark>youtube</mark></span>
-    <div class="grid grid-cols-4 ">
+  <div class="xl:w-3/4 mx-auto h-auto xl:mt-20">
+    <span class="font-nick xl:text-5xl text-center"><mark>youtube</mark></span>
+    <div class="grid xl:grid-cols-4 ">
       <Thumnail>
         <template #image>
-          <div class="row-span-2 h-28 w-52 bg-contain bg-no-repeat bg-tumOneY hover:bg-tumOne"></div>
+          <div class="xl:row-span-2 xl:h-28 xl:w-52 bg-contain bg-no-repeat bg-tumOneY hover:bg-tumOne"></div>
         </template>
         <template #title>
           <span>Yeni Nesil YKS'ci olmak // 12. Sınıf Vlog</span>
@@ -12,7 +12,7 @@
       </Thumnail>
       <Thumnail>
         <template #image>
-          <div class="row-span-2 h-28 w-52 bg-contain bg-no-repeat bg-tumTwoY hover:bg-tumTwo"></div>
+          <div class="xl:row-span-2 xl:h-28 xl:w-52 bg-contain bg-no-repeat bg-tumTwoY hover:bg-tumTwo"></div>
         </template>
         <template #title>
           <span>Çimenlerde Ders, Yazılım, Kitap, Oyun // Karışık Vlog</span>
@@ -20,7 +20,7 @@
       </Thumnail>
       <Thumnail>
         <template #image>
-          <div class="row-span-2 h-28 w-52 bg-contain bg-no-repeat bg-tumTreeY hover:bg-tumTree"></div>
+          <div class="xl:row-span-2 xl:h-28 xl:w-52 bg-contain bg-no-repeat bg-tumTreeY hover:bg-tumTree"></div>
         </template>
         <template #title>
           <span>Kedim için 12 Saatte Oyun Yaptım</span>
@@ -28,7 +28,7 @@
       </Thumnail>
       <Thumnail>
         <template #image>
-          <div class="row-span-2 h-28 w-52 bg-contain bg-no-repeat bg-tumFourY hover:bg-tumFour"></div>
+          <div class="xl:row-span-2 xl:h-28 xl:w-52 bg-contain bg-no-repeat bg-tumFourY hover:bg-tumFour"></div>
         </template>
         <template #title>
           <span>500 km // Bi' Değişik Ders Çalışma Günlüğü - 1</span>

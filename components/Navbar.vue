@@ -7,26 +7,33 @@
         font-bebas
         align-baseline
         text-center
-        lg:h-8 lg:grid-cols-7 lg:text-l lg:mt-3
-        md:h-7 md:grid-cols-7 lg:text-l md:mt-2
+        lg:h-8 lg:text-l lg:mt-3
+        md:h-7 md:grid-cols-7 md:mt-2
+        grid-cols-5 h-12
       "
     >
-      <li></li>
-      <li><NuxtLink to="/">ANA SAYFA</NuxtLink></li>
-      <li><NuxtLink to="/">YAZILIM</NuxtLink></li>
-      <li><NuxtLink to="/">YOUTUBE</NuxtLink></li>
-      <li><NuxtLink to="/">TASARIM</NuxtLink></li>
-      <li><NuxtLink to="/">İLETİŞİM</NuxtLink></li>
-      <li></li>
+      <li class="md:block hidden"></li>
+      <li class="md:block hidden"><NuxtLink to="/">ANA SAYFA</NuxtLink></li>
+      <li class="md:block hidden"><NuxtLink to="/">YAZILIM</NuxtLink></li>
+      <li class="md:block hidden"><NuxtLink to="/">YOUTUBE</NuxtLink></li>
+      <li class="md:block hidden"><NuxtLink to="/">TASARIM</NuxtLink></li>
+      <li class="md:block hidden"><NuxtLink to="/">İLETİŞİM</NuxtLink></li>
+
+      <li class="md:hidden block mx-auto w-7 pt-2"><NuxtLink to="/"><img src="../src/icons/home.png"></NuxtLink></li>
+      <li class="md:hidden block mx-auto w-7 pt-2"><NuxtLink to="/"><img src="../src/icons/code.png"></NuxtLink></li>
+      <li class="md:hidden block mx-auto w-7 pt-2"><NuxtLink to="/"><img src="../src/icons/youtube.png"></NuxtLink></li>
+      <li class="md:hidden block mx-auto w-7 pt-2"><NuxtLink to="/"><img src="../src/icons/design.png"></NuxtLink></li>
+      <li class="md:hidden block mx-auto w-7 pt-2"><NuxtLink to="/"><img src="../src/icons/phone.png"></NuxtLink></li>
+      <li class="md:block hidden"></li>
     </ul>
-    <div class="grid lg:h-2 lg:grid-cols-7 md:h-2 md:grid-cols-7">
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
-      <div class="bg-yellow rounded-b-md lg:h-3 md:h-2"></div>
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
-      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+    <div class="grid lg:h-2 lg:grid-cols-7 md:h-2 md:grid-cols-7 grid-cols-5">
+      <div class="bg-softYellow xl:h-2 lg:h-2 md:h-1 md:block hidden"></div>
+      <div class="bg-yellow md:rounded-b-md xl:h-3 lg:h-3 h-1"></div>
+      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
+      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
+      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
+      <div class="bg-softYellow xl:h-2 lg:h-2 h-1"></div>
+      <div class="bg-softYellow xl:h-2 lg:h-2 md:block hidden"></div>
     </div>
   </div>
 </template>

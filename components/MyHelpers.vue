@@ -1,19 +1,20 @@
 <template>
-  <div class="mx-auto h-auto xl:w-3/4 xl:my-12
-                             lg:w-3/4 lg:my-12">
-    <span class="font-nick xl:text-5xl text-center lg:text-4xl"
+  <div class="mx-auto h-auto lg:w-3/4 lg:my-12
+                             md:w-4/5 md:-mt-8">
+    <span class="font-nick xl:text-5xl text-center md:text-4xl"
       ><mark>yardımcılarım</mark></span>
-      <div class="grid xl:h-24 xl:grid-cols-6 xl:mt-7
-                      lg:h-24 lg:grid-cols-6 lg:mt-7">
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-procreateY hover:bg-procreate"></div>
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-figmaY hover:bg-figma"></div>
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-visualY hover:bg-visual"></div>
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-premiereY hover:bg-premiere"></div>
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-photoshopY hover:bg-photoshop"></div>
-          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 mx-auto bg-contain bg-no-repeat bg-illustratorY hover:bg-illustrator"></div>
+      <div class="grid lg:h-24 lg:grid-cols-6 lg:mt-7
+                       md:h-20 md:grid-cols-6 md:mt-7">
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-procreateY hover:bg-procreate"></div>
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-figmaY hover:bg-figma"></div>
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-visualY hover:bg-visual"></div>
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-premiereY hover:bg-premiere"></div>
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-photoshopY hover:bg-photoshop"></div>
+          <div class=" xl:w-24 xl:h-24 lg:w-20 lg:h-20 md:w-16 md:h-16 mx-auto bg-contain bg-no-repeat bg-illustratorY hover:bg-illustrator"></div>
       </div>
-      <div class="grid text-center font-bebas xl:h-14 xl:grid-cols-6 xl:mt-2 xl:text-xl
-                                              lg:h-14 lg:grid-cols-6 lg:text-lg">
+      <div class="grid text-center font-bebas xl:mt-2 xl:text-xl
+                                              lg:h-14 lg:grid-cols-6 lg:text-lg
+                                              md:h-8 md:grid-cols-6 md:text-md">
           <span class="mx-auto">Procreate</span>
           <span class="mx-auto">FIgma</span>
           <span class="mx-auto">Visual studio code</span>

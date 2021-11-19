@@ -1,14 +1,15 @@
 <template>
-  <div class="mx-auto h-auto xl:mt-20 xl:w-3/4 lg:mt-20 lg:w-3/4">
-    <span class="font-nick text-center xl:text-5xl lg:text-4xl"
+  <div class="mx-auto h-auto          lg:w-3/4
+                             md:mt-20 md:w-4/5">
+    <span class="font-nick text-center xl:text-5xl md:text-4xl" 
       ><mark>youtube</mark></span
     >
-    <div class="grid xl:grid-cols-4 lg:grid-cols-4">
+    <div class="grid md:grid-cols-4">
       <Thumnail>
         <template #image>
           <div
             class="
-              xl:row-span-2 xl:h-28 xl:w-48
+                             xl:h-28 xl:w-48
               lg:row-span-2 lg:h-24 lg:w-44
               bg-contain bg-no-repeat bg-tumOneY
               hover:bg-tumOne
@@ -16,14 +17,14 @@
           ></div>
         </template>
         <template #title>
-          <span>Yeni Nesil YKS'ci olmak // 12. Sınıf Vlog</span>
+          <span>Yenİ Nesil YKS'ci olmak // 12. Sınıf Vlog</span>
         </template>
       </Thumnail>
       <Thumnail>
         <template #image>
           <div
             class="
-              xl:row-span-2 xl:h-28 xl:w-52
+                            xl:h-28 xl:w-52
               lg:row-span-2 lg:h-24 lg:w-44
               bg-contain bg-no-repeat bg-tumTwoY
               hover:bg-tumTwo
@@ -38,7 +39,7 @@
         <template #image>
           <div
             class="
-              xl:row-span-2 xl:h-28 xl:w-52
+                            xl:h-28 xl:w-52
               lg:row-span-2 lg:h-24 lg:w-44
               bg-contain bg-no-repeat bg-tumTreeY
               hover:bg-tumTree
@@ -53,7 +54,7 @@
         <template #image>
           <div
             class="
-              xl:row-span-2 xl:h-28 xl:w-52
+                            xl:h-28 xl:w-52
               lg:row-span-2 lg:h-24 lg:w-44
               bg-contain bg-no-repeat bg-tumFourY
               hover:bg-tumFour

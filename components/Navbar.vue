@@ -7,8 +7,8 @@
         font-bebas
         align-baseline
         text-center
-        xl:h-8 xl:grid-cols-7 xl:text-l xl:mt-3
         lg:h-8 lg:grid-cols-7 lg:text-l lg:mt-3
+        md:h-7 md:grid-cols-7 lg:text-l md:mt-2
       "
     >
       <li></li>
@@ -19,14 +19,14 @@
       <li><NuxtLink to="/">İLETİŞİM</NuxtLink></li>
       <li></li>
     </ul>
-    <div class="grid xl:h-2 xl:grid-cols-7 lg:h-2 lg:grid-cols-7 ">
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
-      <div class="bg-yellow rounded-b-md xl:h-3 lg:h-3"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
-      <div class="bg-softYellow xl:h-2 lg:h-2"></div>
+    <div class="grid lg:h-2 lg:grid-cols-7 md:h-2 md:grid-cols-7">
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+      <div class="bg-yellow rounded-b-md lg:h-3 md:h-2"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
+      <div class="bg-softYellow lg:h-2 md:h-1.5"></div>
     </div>
   </div>
 </template>

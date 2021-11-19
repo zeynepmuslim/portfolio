@@ -1,16 +1,15 @@
 <template>
-  <div class="mx-auto xl:w-3/4 xl:h-96 xl:mt-20 
-                      lg:w-3/4 lg:h-96 lg:mt-44">
-    <span class="font-nick xl:text-5xl lg:text-4xl text-center"
+  <div class="mx-auto                  xl:mt-20   
+                      lg:w-3/4 lg:h-96 lg:mt-44
+                      md:w-4/5 md:h-96 md:mt-40">
+    <span class="font-nick xl:text-5xl md:text-4xl text-center"
       ><mark>uygulamalarım</mark></span
     >
-    <div class="grid xl:grid-cols-3 xl:mt-8
-                     lg:grid-cols-3 lg:mt-8">
+    <div class="grid md:grid-cols-3 md:mt-8">
       <App>
         <template #text>
           <span
-            class="text-center font-robol xl:h-5 xl:row-span-2 xl:py-4 xl:px-2
-                                          lg:h-5 lg:row-span-2 lg:py-4 lg:px-2"
+            class="text-center font-robol md:h-5 md:row-span-2 md:py-4 md:px-2"
             >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
             oyunum.</span
           >
@@ -19,15 +18,15 @@
           <div
             class="
               xl:h-20 xl:w-20
-              lg:h-16 lg:w-16
+              md:h-16 md:w-16
               hover:bg-bat
               bg-contain bg-no-repeat bg-batYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom xl:text-xl xl:py-1.5
-                                              lg:text-xl lg:py-1.5"
+          <span class="text-center font-robom lg:text-xl lg:py-1.5
+                                              md:text-lg md:py-1"
             >Tap and Rise</span
           >
         </template>
@@ -35,8 +34,7 @@
       <App>
         <template #text>
           <span
-            class="text-center font-robol xl:h-5 xl:row-span-2 xl:py-4 xl:px-2
-                                          lg:h-5 lg:row-span-2 lg:py-4 lg:px-2"
+            class="text-center font-robol md:h-5 md:row-span-2 md:py-4 md:px-2"
             >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
             uygulama çıkartmak hedefimin ürünü.</span
           >
@@ -45,15 +43,15 @@
           <div
             class="
               xl:h-20 xl:w-20
-              lg:h-16 lg:w-16
+              md:h-16 md:w-16
               hover:bg-paw
               bg-contain bg-no-repeat bg-pawYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom xl:text-xl xl:py-1.5
-                                              lg:text-xl lg:py-1.5"
+          <span class="text-center font-robom lg:text-xl lg:py-1.5
+                                              md:text-lg md:py-1"
             >Catch Game For Cats</span
           >
         </template>
@@ -61,8 +59,7 @@
       <App>
         <template #text>
           <span
-            class="text-center font-robol xl:h-5 xl:row-span-2 xl:py-4 xl:px-2
-                                          lg:h-5 lg:row-span-2 lg:py-4 lg:px-2"
+            class="text-center font-robol md:h-5 md:row-span-2 md:py-4 md:px-2"
             >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
             geliştirdiğim oyunum.</span
           >
@@ -71,15 +68,15 @@
           <div
             class="
               xl:h-20 xl:w-20
-              lg:h-16 lg:w-16
+              md:h-16 md:w-16
               hover:bg-four
               bg-contain bg-no-repeat bg-fourYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom xl:text-xl xl:py-1.5
-                                              lg:text-xl lg:py-1.5"
+          <span class="text-center font-robom lg:text-xl lg:py-1.5
+                                              md:text-lg md:py-1"
             >4 İşlem Oyunu</span
           >
         </template>

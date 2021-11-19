@@ -1,8 +1,10 @@
 <template>
-  <div class="mx-auto xl:py-7 grid xl:grid-rows-3">
+  <div class="mx-auto grid xl:py-7 xl:grid-rows-3 
+                          lg:py-7 lg:grid-rows-3">
     <slot name="image"></slot>
-    <div class="xl:w-48 font-bebas xl:pt-1 xl:text-xl text-center">
-    <slot name="title"></slot>
+    <div class="text-center mx-auto font-bebas xl:w-48 xl:pt-1 xl:text-xl
+                                       lg:w-44 lg:text-xl">
+      <slot name="title"></slot>
     </div>
   </div>
 </template>
@@ -10,7 +12,6 @@
 <script>
 export default {
   name: 'Thumnail',
-  components: {
-  },
+  components: {},
 }
 </script>

@@ -2,8 +2,8 @@
   <div>
     <div class="grid md:grid-row-7">
       <div class="mx-auto xl:h-20
-                          md:h-16
-                          sm:h-14 md:row-span-2">
+                          md:h-16 sm:mb-0
+                          h-14 row-span-2 mb-1">
         <slot name="icon"></slot>
       </div>
       <slot name="title"></slot>
@@ -23,7 +23,8 @@
           xl:h-10
           lg:mt-20
           md:mt-28
-          sm:grid-cols-3 sm:h-8 sm:mt-32 md:w-1/2
+          sm:grid-cols-3 sm:h-8 sm:mt-32 sm:w-1/2
+          grid-cols-3 h-8 mt-24 w-2/3
         "
       >
         <div
@@ -38,6 +39,7 @@
             lg:ml-8
                     md:h-4 md:w-4
             sm:ml-5 sm:h-3 sm:w-3
+            ml-5 h-3 w-3
 
           "
         ></div>
@@ -45,7 +47,8 @@
           class="font-bebas my-auto xl:text-xl
                                     lg:text-lglg:pl-2
                                     md:text-md
-                                    sm:col-span-2 sm:text-sm sm:pt-1 sm:pl-1"
+                                    sm:col-span-2 sm:text-sm sm:pt-1 sm:pl-1
+                                    col-span-2 text-sm pt-1 pl-1"
           >App Store</span
         >
       </div>

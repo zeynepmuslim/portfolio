@@ -7,24 +7,28 @@
       lg:w-3/4 lg:h-72 lg:pt-28
       md:w-4/5 md:h-72 md:grid-cols-3 md:pt-28
       sm:w-9/12 sm:h-72 sm:grid-cols-3 sm:pt-28 sm:grid-row-4
+      w-11/12 h-auto grid-cols-3 pt-16 grid-row-4
     "
   >
-    <div class="xl:row-span-4 lg:row-span-4 md:row-span-4 sm:row-span-3">
-      <img class="xl:h-96 lg:h-72 md:h-64 sm:h-52 mx-auto" src="../src/vectors/avatar.svg" />
+    <div class="xl:row-span-4 lg:row-span-4 md:row-span-4 sm:row-span-3 row-span-2">
+      <img class="xl:h-96 lg:h-72 md:h-64 sm:h-52 h-48 mx-auto" src="../src/vectors/avatar.svg" />
     </div>
-    <div class="grid sm:row-span-2 sm:col-span-2 sm:grid-rows-2 sm:mt-2">
+    <div class="grid sm:row-span-2 sm:col-span-2 sm:grid-rows-2 sm:mt-2 row-span-2 col-span-2 grid-rows-2 mt-2">
       <span class="font-nick xl:text-7xl
                              lg:text-6xl
                              md:text-5xl md:px-7 md:pt-8
-                             sm:text-5xl sm:px-7 sm:pt-0
+                             sm:text-5xl sm:px-7 pt-0
+                             text-3xl px-7
                              ">Selamlar!</span>
-      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-4xl sm:pl-7"
+      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-4xl sm:pl-7 text-xl pl-3"
         >ben,<mark>Zeynep Müslim</mark></span
       >
     </div>
     <div class="font-robol xl:text-2xl xl:pt-3
                            md:col-span-2 md:px-7 md:text-lg md:-mt-6
-                           sm:col-span-2 sm:text-md sm:text-md sm:pl-7 sm:pt-2">
+                           sm:col-span-2 sm:text-md sm:pl-7 sm:pt-2 sm:text-left
+                           text-sm px-3 pt-1 col-span-3 
+                           bg-red-400">
       Gündüz tasarımcı, gece yazılımcı, haftada bir Youtuber geri kalan zamanda
       öğrenci olmaya çalışan biriyim.
     </div>

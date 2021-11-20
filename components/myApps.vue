@@ -3,7 +3,7 @@
                       lg:w-3/4 lg:mt-44
                       md:w-4/5 
                       sm:w-9/12  sm:h-auto sm:mt-40 sm:mb-0
-                      w-11/12 h-suto mt-40 mb-12">
+                      w-11/12 h-suto mt-4 mb-12">
     <span class="font-nick xl:text-5xl md:text-4xl sm:text-3xl text-2xl text-center"
       ><mark>uygulamalarım</mark></span
     >

@@ -26,32 +26,29 @@
       </div>
       <div class="md:hidden grid grid-rows-2 grid-cols-3 mt-6 text-center sm:text-lg text-sm font-bebas">
         <div class="mb-3">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-procreateY hover:bg-procreate"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-procreateY hover:bg-procreate"></div>
         <span class="mx-auto">Procreate</span>
         </div>
         <div class="mb-4">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-figmaY hover:bg-figma"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-figmaY hover:bg-figma"></div>
         <span class="mx-auto">FIgma</span>
         </div>
         <div class="mb-4">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-visualY hover:bg-visual"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-visualY hover:bg-visual"></div>
         <span class="mx-auto">Visual studio code</span>
         </div>
         <div class="mb-4">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-premiereY hover:bg-premiere"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-premiereY hover:bg-premiere"></div>
         <span class="mx-auto">Adobe Premiere pro</span>
         </div>
         <div class="mb-4">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-photoshopY hover:bg-photoshop"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-photoshopY hover:bg-photoshop"></div>
         <span class="mx-auto">Adobe photoshop</span>
         </div>
         <div class="mb-4">
-        <div class="mb-1 sm:h-20 sm:w-20 h-12 w-12 mx-auto bg-contain bg-no-repeat bg-illustratorY hover:bg-illustrator"></div>
+        <div class="mb-1 sm:h-20 sm:w-20 h-16 w-16 mx-auto bg-contain bg-no-repeat bg-illustratorY hover:bg-illustrator"></div>
         <span class="mx-auto">Adobe ıllustrator</span>
         </div>
-
-
-
 
       </div>
   </div>

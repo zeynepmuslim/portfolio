@@ -11,30 +11,32 @@
     "
   >
     <div class="xl:row-span-4 lg:row-span-4 md:row-span-4 sm:row-span-3 row-span-2">
-      <img class="xl:h-96 lg:h-72 md:h-64 sm:h-52 h-48 mx-auto" src="../src/vectors/avatar.svg" />
+      <img class="xl:h-96 lg:h-72 md:h-64 sm:h-52 h-auto mx-auto" src="../src/vectors/avatar.svg" />
     </div>
-    <div class="grid sm:row-span-2 sm:col-span-2 sm:grid-rows-2 sm:mt-2 row-span-2 col-span-2 grid-rows-2 mt-2">
+    <div class="grid sm:row-span-2 sm:col-span-2 sm:grid-rows-2 sm:mt-2 row-span-2 col-span-2 grid-rows-4 mt-2">
+      <div class="sm:hidden block h-1/5"></div>
       <span class="font-nick xl:text-7xl
                              lg:text-6xl
                              md:text-5xl md:px-7 md:pt-8
                              sm:text-5xl sm:px-7 pt-0
-                             text-3xl px-7
+                             text-4xl px-7
                              ">Selamlar!</span>
-      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-4xl sm:pl-7 text-xl pl-3"
+      <span class="font-nick text-center xl:text-6xl lg:text-5xl md:text-4xl sm:text-4xl sm:pl-7 text-3xl pl-3"
         >ben,<mark>Zeynep Müslim</mark></span
       >
     </div>
+    
     <div class="font-robol xl:text-2xl xl:pt-3
                            md:col-span-2 md:px-7 md:text-lg md:-mt-6
                            sm:col-span-2 sm:text-md sm:pl-7 sm:pt-2 sm:text-left
-                           text-sm px-3 pt-1 col-span-3 
-                           bg-red-400">
+                           text-md px-3 pt-4 col-span-3 text-center">
       Gündüz tasarımcı, gece yazılımcı, haftada bir Youtuber geri kalan zamanda
       öğrenci olmaya çalışan biriyim.
     </div>
     <div class="grid lg:grid-cols-7 lg:py-7 lg:col-span-2 lg:pr-11
                      md:grid-cols-7 md:py-7 md:col-span-2 md:pr-11
-                     sm:grid-cols-5 sm:py-7 sm:col-span-3">
+                     sm:grid-cols-5 sm:py-7 sm:col-span-3
+                     grid-cols-5 py-7 col-span-3">
       <div class="md:block hidden"></div>
       <div
         class="
@@ -43,8 +45,8 @@
           bg-contain bg-no-repeat bg-instagramYellow
           xl:w-12 xl:h-12
           lg:w-10 lg:h-10
-          md:w-9 md:h-9
           sm:w-9 sm:h-9
+          w-10 h-10
         "
       ></div>
       <div
@@ -56,6 +58,7 @@
           lg:w-10 lg:h-10
           md:w-9 md:h-9
           sm:w-9 sm:h-9
+          w-10 h-10
         "
       ></div>
       <div
@@ -67,6 +70,7 @@
           lg:w-10 lg:h-10
           md:w-9 md:h-9
           sm:w-9 sm:h-9
+          w-10 h-10
         "
       ></div>
       <div
@@ -78,6 +82,7 @@
           lg:w-10 lg:h-10
           md:w-9 md:h-9
           sm:w-9 sm:h-9
+          w-10 h-10
         "
       ></div>
       <div
@@ -89,6 +94,7 @@
           lg:w-10 lg:h-10
           md:w-9 md:h-9
           sm:w-9 sm:h-9
+          w-10 h-10
         "
       ></div>
       <div class="md:block hidden"></div>

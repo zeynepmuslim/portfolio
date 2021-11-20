@@ -15,7 +15,7 @@
               md:row-span-2 md:h-24 md:w-32
               sm:row-span-2 sm:h-24 sm:w-52
               bg-contain bg-no-repeat bg-tumOneY
-              hover:bg-tumOneY
+              hover:bg-tumOne
             "
           ></div>
         </template>

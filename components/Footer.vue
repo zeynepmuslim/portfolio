@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-softYellow grid grid-rows-2 md:p-10 p-6 mt-64">
+  <div class="w-full bg-softYellow grid grid-rows-2 md:p-10 p-6 mt-16">
     <div class="flex mx-auto">
       <img class="my-auto xl:mr-1 xl:h-4
                           md:mr-1 md:h-4

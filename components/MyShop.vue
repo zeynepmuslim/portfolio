@@ -89,7 +89,7 @@
             sm:pt-2 sm:text-sm sm:h-8 sm:w-2/5
           "
         >
-          Instgaram
+          Instagram
         </div>
       </div>
       <div class="grid md:grid-rows-2">

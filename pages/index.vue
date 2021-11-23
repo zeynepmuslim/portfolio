@@ -10,10 +10,10 @@
 
 <script>
 import Hero from '~/components/Hero.vue'
- import MyApps from '~/components/myApps.vue' 
- import MyShop from '~/components/MyShop.vue'
- import Youtube from '~/components/Youtube.vue'
- import MyHelpers from '~/components/MyHelpers.vue'
+import MyApps from '~/components/myApps.vue' 
+import MyShop from '~/components/MyShop.vue'
+import Youtube from '~/components/Youtube.vue'
+import MyHelpers from '~/components/MyHelpers.vue'
 
 export default {
   name: 'Index',
@@ -52,6 +52,10 @@ export default {
   font-family: 'RobotoMedium';
   src: url("~/fonts/RobotoMedium.ttf");
   font-weight: 500;
+}
+
+.your-custom-exact-active-link {
+  background: red;
 }
 
 </style>

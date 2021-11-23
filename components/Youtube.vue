@@ -1,21 +1,31 @@
 <template>
-  <div class="mx-auto h-auto          lg:w-3/4
-                             md:mt-20 md:w-4/5
-                             sm:mt-16 sm:w-9/12
-                             mt-16 w-11/12">
-    <span class="font-nick text-center xl:text-5xl md:text-4xl sm:text-3xl text-2xl" 
+  <div
+    class="
+      mx-auto
+      h-auto
+      lg:w-3/4
+      md:mt-20 md:w-4/5
+      sm:mt-16 sm:w-9/12
+      mt-16
+      w-11/12
+    "
+  >
+    <span
+      class="font-nick text-center xl:text-5xl md:text-4xl sm:text-3xl text-2xl"
       ><mark>youtube</mark></span
     >
-    <div class="grid md:grid-cols-4 grid-cols-2 ">
+    <div class="grid md:grid-cols-4 grid-cols-2">
       <Thumnail>
         <template #image>
           <div
-            class=" 
-                            xl:h-28 xl:w-52
+            class="
+              xl:h-28 xl:w-52
               lg:w-44
               md:h-24 md:w-32
               sm:row-span-2 sm:h-24 sm:w-52
-              row-span-2 h-24 w-52
+              row-span-2
+              h-24
+              w-52
               bg-contain bg-no-repeat bg-tumOneY
               hover:bg-tumOne
             "
@@ -29,11 +39,13 @@
         <template #image>
           <div
             class="
-                            xl:h-28 xl:w-52
-              lg:row-span-2 lg:h-24 lg:w-44
-              md:row-span-2 md:h-24 md:w-32
-              sm:row-span-2 sm:h-24 sm:w-52
-               row-span-2 h-24 w-52
+              xl:h-28 xl:w-52
+              lg:w-44
+              md:w-32
+              sm:w-52
+              row-span-2
+              h-24
+              w-52
               bg-contain bg-no-repeat bg-tumTwoY
               hover:bg-tumTwo
             "
@@ -47,11 +59,13 @@
         <template #image>
           <div
             class="
-                            xl:h-28 xl:w-52
-              lg:row-span-2 lg:h-24 lg:w-44
-              md:row-span-2 md:h-24 md:w-32
-              sm:row-span-2 sm:h-24 sm:w-52
-               row-span-2 h-24 w-52
+              xl:h-28 xl:w-52
+              lg:w-44
+              md:w-32
+              sm:w-52
+              row-span-2
+              h-24
+              w-52
               bg-contain bg-no-repeat bg-tumTreeY
               hover:bg-tumTree
             "
@@ -65,11 +79,13 @@
         <template #image>
           <div
             class="
-                            xl:h-28 xl:w-52
-              lg:row-span-2 lg:h-24 lg:w-44
-              md:row-span-2 md:h-24 md:w-32
-              sm:row-span-2 sm:h-24 sm:w-52
-               row-span-2 h-24 w-52
+              xl:h-28 xl:w-52
+             lg:w-44
+              md:w-32
+              sm:w-52
+              row-span-2
+              h-24
+              w-52
               bg-contain bg-no-repeat bg-tumFourY
               hover:bg-tumFour
             "

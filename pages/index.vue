@@ -54,8 +54,8 @@ export default {
   font-weight: 500;
 }
 
-.your-custom-exact-active-link {
-  background: red;
+.your-custom-exact-active-link > div > div {
+  background: #ffcf16;
 }
 
 </style>

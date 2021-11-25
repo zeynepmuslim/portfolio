@@ -126,6 +126,8 @@
 <script>
 export default {
   name: 'MyShop',
+  components: {
+  },
 }
 </script>
 

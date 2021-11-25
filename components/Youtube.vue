@@ -11,7 +11,7 @@
     "
   >
     <span
-      class="font-nick text-center xl:text-5xl md:text-4xl sm:text-3xl text-2xl"
+      class="font-nick text-center xl:text-5xl md:text-4xl text-3xl"
       ><mark>youtube</mark></span
     >
     <div class="grid md:grid-cols-4 grid-cols-2">

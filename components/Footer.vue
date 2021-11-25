@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-softYellow grid grid-rows-2 md:p-10 p-6 mt-16">
+  <div class="w-full footer bg-softYellow grid grid-rows-2 md:p-10 p-6 mt-64">
     <div class="flex mx-auto">
       <img class="my-auto sm:mr-1 sm:h-4
                           h-3

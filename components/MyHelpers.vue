@@ -3,7 +3,7 @@
                              md:w-4/5 md:mt-3
                              sm:w-9/12 sm:mt-8
                              w-11/12 mt-8">
-    <span class="font-nick xl:text-5xl text-center md:text-4xl sm:text-3xl text-2xl"
+    <span class="font-nick xl:text-5xl text-center md:text-4xl text-3xl"
       ><mark>yardımcılarım</mark></span>
       <div class="lg:h-24 lg:grid-cols-6 lg:mt-7
                        md:h-20 md:grid-cols-6 md:mt-7 md:grid hidden">

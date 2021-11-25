@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto h-auto xl:mt-16 lg:w-3/4 md:w-4/5 sm:w-9/12 sm:mt-11 w-11/12 ">
-    <span class="font-nick xl:text-5xl text-center md:text-4xl sm:text-3xl text-2xl"
+    <span class="font-nick xl:text-5xl text-center md:text-4xl text-3xl"
       ><mark>küçük işletmem</mark></span
     >
     <div

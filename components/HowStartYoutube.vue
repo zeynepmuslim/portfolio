@@ -1,19 +1,19 @@
 <template>
-  <div>
-    <div class="mx-auto xl:pt-8 lg:pt-24 xl:my-16 lg:w-3/4 md:w-4/5 sm:w-9/12 w-11/12">
+  <div class="lg:m-0 md:mb-8">
+    <div class="mx-auto xl:pt-8 lg:pt-20 md:pt-24 pt-16 xl:my-16 lg:w-3/4 md:w-4/5 sm:w-9/12 w-11/12">
       <span
         class="
           font-nick
           text-center
           xl:text-5xl
           md:text-4xl
-          sm:text-3xl
-          text-2xl
+          text-3xl
+          
         "
         ><mark>youtube</mark></span
       >
-      <div class="grid grid-cols-4">
-        <div class="col-span-2 mt-4 lg:text-sm font-robol text-sx">
+      <div class="grid xl:grid-cols-4">
+        <div class="xl:col-span-2 mt-4 lg:text-sm font-robol text-sx xl:m-0 md:mb-3 sm:mb-0 mb-3">
           <p class="p-2">
             İlk videom <span class="font-roboi">“Kedi Eğitimi”</span> adlı bir videoydu. O videoyu ilk videom
             olmasına rağmen telefonum, ödünç aldığım bir tripodum, internetten
@@ -35,25 +35,25 @@
             görmek mükemmel hissettiriyor.
           </p>
         </div>
-        <div class="col-span-2 grid row-span-2 grid-cols-2 ml-4">
-          <div>
+        <div class="xl:col-span-2 grid xl:row-span-2 xl:grid-cols-2 grid-cols-2 ml-4 mx-auto w-full">
+          <div class="mx-auto">
             <div
               class="
                 text-center
                 font-robol
-                xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl
+                xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0
+                sm:ml-5 sm:text-lg sm:-mb-5
+                w-48 text-md -mb-3
               "
             >
               2018
             </div>
-            <Thumnail>
+            <ThumnailForYoutube>
               <template #image>
                 <div
                   class="
                     xl:h-28 xl:w-52
-                    lg:row-span-2 lg:h-24 lg:w-44
-                    md:row-span-2 md:h-24 md:w-32
-                    sm:row-span-2 sm:h-24 sm:w-52
+                    sm:row-span-2 sm:h-32 sm:w-52
                     row-span-2
                     h-24
                     w-52
@@ -65,28 +65,27 @@
               <template #title>
                 <span>Kedİ Sahİplenmeden Önce Alınması Gerekenler</span>
               </template>
-            </Thumnail>
+            </ThumnailForYoutube>
           </div>
 
-          <div>
+          <div class="mx-auto">
             <div
               class="
-                text-center
+                 text-center
                 font-robol
-                text-center
-                xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl
+                xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0
+                sm:ml-5 sm:text-lg sm:-mb-5
+                w-48 text-md -mb-3
               "
             >
               2021
             </div>
-            <Thumnail>
+            <ThumnailForYoutube>
               <template #image>
                 <div
                   class="
                     xl:h-28 xl:w-52
-                    lg:row-span-2 lg:h-24 lg:w-44
-                    md:row-span-2 md:h-24 md:w-32
-                    sm:row-span-2 sm:h-24 sm:w-52
+                    sm:row-span-2 sm:h-32 sm:w-52
                     row-span-2
                     h-24
                     w-52
@@ -98,7 +97,7 @@
               <template #title>
                 <span>Yenİ Nesİl YKS'cİ olmak // 12. Sınıf Vlog</span>
               </template>
-            </Thumnail>
+            </ThumnailForYoutube>
           </div>
         </div>
       </div>
@@ -107,11 +106,11 @@
 </template>
 
 <script>
-import Thumnail from '~/components/Thumnail.vue'
+import ThumnailForYoutube from '~/components/ThumnailForYoutube.vue'
 export default {
   name: 'HowStartYoutube',
   components: {
-    Thumnail,
+    ThumnailForYoutube,
   },
 }
 </script>

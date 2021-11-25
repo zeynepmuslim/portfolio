@@ -14,8 +14,7 @@
             class="text-center font-robol              md:py-4
                                           sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
                                              row-span-2    py-2    px-2    text-xs bg-red-400"
-            >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
-            oyunum.</span
+            >Oyun motoru eğimlerim sırasında öğrendiğim ünlü “Flappy Bird” mekanikleri ardından daha da geliştererek 4 farklı dil, online skor tablosu, level sistemi, görünüş değiştirme gibi ekletiler ile güçlendirdiğim en fonksiyonel uygulamam.</span
           >
         </template>
         <template #icon>
@@ -44,8 +43,7 @@
             class="text-center font-robol              md:py-4
                                           sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
                                              row-span-2    py-2    px-2    text-xs bg-red-400"
-            >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
-            uygulama çıkartmak hedefimin ürünü.</span
+            >Kedim için indirdiğim uygulamların reklam dolu olması ile “Ben bu oyunu bozarım!” diyip üstüne de kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan uygulama çıkartmak hedefimin ürünü.</span
           >
         </template>
         <template #icon>
@@ -74,8 +72,7 @@
             class="text-center font-robol              md:py-4
                                           sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
                                              row-span-2    py-2    px-2    text-xs bg-red-400"
-            >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
-            geliştirdiğim oyunum.</span
+            >    İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için geliştirdiğim oyunum. İçine özellikle 2 versiyon buluyor ve biri daha 15 yaşında iken kodladığım ilk projenin kopyası diğeri ise onun gelişmiş hali.</span
           >
         </template>
         <template #icon>
@@ -83,7 +80,6 @@
             class="
               xl:h-20 xl:w-20
               md:h-16 md:w-16
-              sm:h-14 sm:w-14
               h-14 w-14
               hover:bg-four
               bg-contain bg-no-repeat bg-fourYellow
@@ -105,20 +101,13 @@
 <script>
 import App from '~/components/App.vue'
 export default {
-  name: 'MyApps',
+  name: 'MyAppsStories',
   components: {
     App,
   },
 }
 </script>
 
-<style scoped>
-mark {
-  display: inline-block;
-  line-height: 0.03em;
-  background: #ffcf16;
-  padding-bottom: 0.3em;
-  width: 6em;
-  border-radius: 20px;
-}
+<style>
+
 </style>

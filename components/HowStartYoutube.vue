@@ -10,7 +10,7 @@
           text-3xl
           
         "
-        ><mark>youtube</mark></span
+        ><mark>nasıl başladım</mark></span
       >
       <div class="grid xl:grid-cols-4">
         <div class="xl:col-span-2 mt-4 lg:text-sm font-robol text-sx xl:m-0 md:mb-3 sm:mb-0 mb-3">
@@ -121,7 +121,7 @@ mark {
   line-height: 0.03em;
   background: #ffcf16;
   padding-bottom: 0.3em;
-  width: 3.5em;
+  width: 5.7em;
   border-radius: 20px;
 }
 </style>

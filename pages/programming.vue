@@ -1,16 +1,18 @@
 <template>
   <div>
-    <Hero />
-    Yazılım Kısmı
+    <HowStartPragramming />
+    <MyAppsStories />
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue'
+import HowStartPragramming from '~/components/HowStartProgramming.vue'
+import MyAppsStories from '~/components/MyAppsStories.vue'
 export default {
 name: 'Programming',
   components: {
-    Hero,
+    HowStartPragramming,
+    MyAppsStories
 }
 }
 </script>

@@ -27,6 +27,8 @@ module.exports = {
         'pawYellow': "url('~/src/img/pawYellow.png')",
         'apple': "url('~/src/vectors/apple.svg')",
         'appleYellow': "url('~/src/vectors/appleYellow.svg')",
+        'youtubeBlFill': "url('~/src/vectors/youtubeBlackFill.svg')",
+        'youtubeYeFill': "url('~/src/vectors/youtubeYellowFill.svg')",
         'github': "url('~/src/img/github.png')",
         'githubYellow': "url('~/src/img/githubYellow.png')",
         'shop': "url('~/src/img/shop.png')",
@@ -69,6 +71,7 @@ module.exports = {
         'studyIconY': "url('~/src/icons/studyIconY.png')",
         'vlogIcon': "url('~/src/icons/vlogIcon.png')",
         'vlogIconY': "url('~/src/icons/vlogIconY.png')",
+        
       }
     },
   },

@@ -19,13 +19,10 @@
           mx-auto
           grid
           xl:h-10
-          lg:mt-20
-          md:mt-28 md:w-36
-          sm:grid-cols-3 sm:h-8 sm:mt-32
+          md:w-36
           w-32
           grid-cols-3
           h-8
-          mt-24
         "
       >
         <div

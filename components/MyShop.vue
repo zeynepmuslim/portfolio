@@ -10,7 +10,8 @@
         lg:h-48 lg:w-4/5
         md:rounded-3xl
         sm:w-11/12
-        shadow-xl h-40 w-11/12 rounded-3xl
+        
+        h-40 w-11/12 rounded-3xl
       "
     >
       <div
@@ -18,6 +19,7 @@
           h-full
           bg-lightGray
           mx-auto
+          shadow-xl hover:shadow-inner
           grid
           sm:grid-cols-4 sm:rounded-3xl sm:my-8
           grid-cols-4 rounded-3xl my-8

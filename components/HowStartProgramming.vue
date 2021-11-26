@@ -23,7 +23,7 @@
           mt-4
           lg:text-sm
           font-robol
-          text-sx
+          text-sm
           xl:m-0
           md:mb-3
           sm:mb-0

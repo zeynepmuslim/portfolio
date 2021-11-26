@@ -12,31 +12,31 @@
         hidden
       "
     >
-      <div class="grid grid-rows-2 lg:mt-5 mt-6">
+      <div class="grid grid-rows-2 lg:mt-5 mt-6 bg-white">
         <li class="md:block hidden"></li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div>
-      <NuxtLink class="h-7" to="/"><div class="grid grid-rows-2">
+      <NuxtLink class="h-7 bg-white" to="/"><div class="grid grid-rows-2">
         <li class="hidden md:block pb-1">ANA SAYFA</li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div></NuxtLink>
-      <NuxtLink class="h-7" to="/programming"><div class="grid grid-rows-2">
+      <NuxtLink class="h-7 bg-white" to="/programming"><div class="grid grid-rows-2">
         <li class="hidden md:block pb-1">YAZILIM</li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div></NuxtLink>
-      <NuxtLink class="h-7" to="/youtube"><div class="grid grid-rows-2">
+      <NuxtLink class="h-7 bg-white" to="/youtube"><div class="grid grid-rows-2">
         <li class="hidden md:block pb-1">YOUTUBE</li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div></NuxtLink>
-      <NuxtLink class="h-7" to="/design"><div class="grid grid-rows-2">
+      <NuxtLink class="h-7 bg-white" to="/design"><div class="grid grid-rows-2">
         <li class="hidden md:block pb-1">TASARIM</li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div></NuxtLink>
-      <NuxtLink class="h-7" to="/communication"><div class="grid grid-rows-2">
+      <NuxtLink class="h-7 bg-white" to="/communication"><div class="grid grid-rows-2">
         <li class="hidden md:block pb-1">İLETİŞİM</li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div></NuxtLink>
-      <div class="grid grid-rows-2 lg:mt-5 mt-6">
+      <div class="grid grid-rows-2 lg:mt-5 mt-6 bg-white">
         <li class="md:block hidden pb-1"></li>
         <div class="bg-softYellow lg:h-2 h-1"></div>
       </div>

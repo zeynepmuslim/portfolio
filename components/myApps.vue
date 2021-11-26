@@ -1,9 +1,17 @@
 <template>
-  <div class="mx-auto                  xl:mt-20   
-                      lg:w-3/4 lg:mt-44
-                      md:w-4/5 
-                      sm:w-9/12  sm:h-auto sm:mt-40 sm:mb-0
-                      w-11/12 h-suto mt-4 mb-12">
+  <div
+    class="
+      mx-auto
+      xl:mt-20
+      lg:w-3/4 lg:mt-44
+      md:w-4/5
+      sm:w-9/12 sm:h-auto sm:mt-40 sm:mb-0
+      w-11/12
+      h-suto
+      mt-4
+      mb-12
+    "
+  >
     <span class="font-nick xl:text-5xl md:text-4xl text-3xl text-center"
       ><mark>uygulamalarım</mark></span
     >
@@ -11,9 +19,20 @@
       <App>
         <template #text>
           <span
-            class="text-center font-robol              md:py-4
-                                          sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
-                                             row-span-2    py-2    px-2    text-xs bg-red-400"
+            class="
+              text-center
+              font-robol
+              md:py-4
+              sm:text-sm
+              row-span-2
+              py-2
+              px-2
+              text-xs
+              lg:h-24
+              md:h-28
+              sm:h-36
+              h-20
+            "
             >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
             oyunum.</span
           >
@@ -24,16 +43,21 @@
               xl:h-20 xl:w-20
               md:h-16 md:w-16
               sm:h-14 sm:w-14
-              h-14 w-14
+              h-14
+              w-14
               hover:bg-bat
               bg-contain bg-no-repeat bg-batYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom lg:text-xl lg:py-1.5
-                                              sm:text-lg sm:py-1
-                                              text-sm"
+          <span
+            class="
+              text-center
+              font-robom
+              lg:text-xl lg:py-1.5 sm:py-1
+              text-md
+            "
             >Tap and Rise</span
           >
         </template>
@@ -41,9 +65,20 @@
       <App>
         <template #text>
           <span
-            class="text-center font-robol              md:py-4
-                                          sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
-                                             row-span-2    py-2    px-2    text-xs bg-red-400"
+            class="
+              text-center
+              font-robol
+              md:py-4
+              sm:text-sm
+              row-span-2
+              py-2
+              px-2
+              text-xs
+              lg:h-24
+              md:h-28
+              sm:h-36
+              h-20
+            "
             >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
             uygulama çıkartmak hedefimin ürünü.</span
           >
@@ -54,16 +89,21 @@
               xl:h-20 xl:w-20
               md:h-16 md:w-16
               sm:h-14 sm:w-14
-              h-14 w-14
+              h-14
+              w-14
               hover:bg-paw
               bg-contain bg-no-repeat bg-pawYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom lg:text-xl lg:py-1.5
-                                              sm:text-lg sm:py-1
-                                              text-sm"
+          <span
+            class="
+              text-center
+              font-robom
+              lg:text-xl lg:py-1.5 sm:py-1
+              text-md
+            "
             >Catch Game For Cats</span
           >
         </template>
@@ -71,9 +111,20 @@
       <App>
         <template #text>
           <span
-            class="text-center font-robol              md:py-4
-                                          sm:row-span-2 sm:py-2 sm:px-2 sm:text-sm
-                                             row-span-2    py-2    px-2    text-xs bg-red-400"
+            class="
+              text-center
+              font-robol
+              md:py-4
+              sm:text-sm
+              row-span-2
+              py-2
+              px-2
+              text-xs
+              lg:h-24
+              md:h-28
+              sm:h-36
+              h-20
+            "
             >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
             geliştirdiğim oyunum.</span
           >
@@ -84,16 +135,22 @@
               xl:h-20 xl:w-20
               md:h-16 md:w-16
               sm:h-14 sm:w-14
-              h-14 w-14
+              h-14
+              w-14
               hover:bg-four
               bg-contain bg-no-repeat bg-fourYellow
             "
           ></div>
         </template>
         <template #title>
-          <span class="text-center font-robom lg:text-xl lg:py-1.5
-                                              sm:text-lg sm:py-1
-                                              text-sm"
+          <span
+            class="
+              text-center
+              font-robom
+              lg:text-xl lg:py-1.5
+              sm:py-1
+              text-md
+            "
             >4 İşlem Oyunu</span
           >
         </template>

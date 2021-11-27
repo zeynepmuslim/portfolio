@@ -25,6 +25,7 @@
           font-robol
           text-sm
           xl:m-0
+          lg:mb-0
           md:mb-3
           sm:mb-0
           mb-3

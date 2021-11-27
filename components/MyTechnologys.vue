@@ -6,7 +6,7 @@
       md:w-4/5
       sm:w-9/12 sm:h-auto sm:mb-0
       w-11/12
-      mt-16
+      mt-20
       mb-12
     "
   >

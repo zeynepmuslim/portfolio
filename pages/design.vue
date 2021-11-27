@@ -1,17 +1,20 @@
 <template>
   <div>
-    <Hero />
-      Tasrım Bölümü
+    <HowStartDesign />
+    <MyShopExample />
+      
 
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue'
+import HowStartDesign from '~/components/HowStartDesign.vue'
+import MyShopExample from '~/components/MyShopExample.vue'
 export default {
 name: 'Design',
   components: {
-    Hero,
+    HowStartDesign,
+    MyShopExample,
 }}
 </script>
 

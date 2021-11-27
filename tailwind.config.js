@@ -49,6 +49,10 @@ module.exports = {
         'tumFourY': "url('~/src/img/fourthY.png')",
         'tumFive': "url('~/src/img/five.png')",
         'tumFiveY': "url('~/src/img/fiveY.png')",
+        'tumSix': "url('~/src/img/six.png')",
+        'tumSixY': "url('~/src/img/sixY.png')",
+        'tumSeven': "url('~/src/img/seven.png')",
+        'tumSevenY': "url('~/src/img/sevenY.png')",
         'procreate': "url('~/src/img/procreate.png')",
         'procreateY': "url('~/src/img/procreateY.png')",
         'visual': "url('~/src/img/visual.png')",
@@ -91,7 +95,10 @@ module.exports = {
         'tailwindY': "url('~/src/tecsIcon/tailwindY.png')",
         'vuejs': "url('~/src/tecsIcon/vuejs.png')",
         'vuejsY': "url('~/src/tecsIcon/vuejsY.png')",
-        
+        'earring': "url('~/src/img/earring.png')",
+        'earringY': "url('~/src/img/earringY.png')",
+        'sticker': "url('~/src/img/sticker.png')",
+        'stickerY': "url('~/src/img/stickerY.png')",
       }
     },
   },

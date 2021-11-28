@@ -1,21 +1,15 @@
 <template>
   <div>
-      
-      <Hero />
-      iletişim Kısmı
+    <CommunicationInfo />
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue'
+import CommunicationInfo from '~/components/CommunicationInfo.vue'
 export default {
-name: 'Communication',
+  name: 'Communication',
   components: {
-    Hero,
-}
+    CommunicationInfo,
+  },
 }
 </script>
-
-<style>
-
-</style>

@@ -3,156 +3,56 @@
     class="
       mx-auto
       xl:mt-20
-      lg:w-3/4 lg:mt-44
-      md:w-4/5
-      sm:w-9/12 sm:h-auto sm:mt-40 sm:mb-0
-      w-11/12
+      g:mt-44
+      sm:h-auto sm:mt-40 sm:mb-0
       h-suto
       mt-4
       mb-12
+      resp-w
     "
   >
-    <span class="font-nick xl:text-5xl md:text-4xl text-3xl text-center"
-      ><mark>uygulamalarım</mark></span
-    >
-    <div class="grid sm:grid-cols-3 sm:mt-8 grid-cols-3 mt-8">
+    <span class="header-style"><mark>uygulamalarım</mark></span>
+    <div class="grid sm:mt-8 grid-cols-3 mt-8">
       <App>
         <template #text>
-          <span
-            class="
-              text-center
-              font-robol
-              md:py-4
-              sm:text-sm
-              row-span-2
-              py-2
-              px-2
-              text-xs
-              lg:h-24
-              md:h-28
-              sm:h-36
-              h-20
-            "
+          <span class="text-style"
             >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
             oyunum.</span
           >
         </template>
         <template #icon>
-          <div
-            class="
-              xl:h-20 xl:w-20
-              md:h-16 md:w-16
-              sm:h-14 sm:w-14
-              h-14
-              w-14
-              hover:bg-bat
-              bg-contain bg-no-repeat bg-batYellow
-            "
-          ></div>
+          <div class="icon-size hover:bg-bat bg-batYellow"></div>
         </template>
         <template #title>
-          <span
-            class="
-              text-center
-              font-robom
-              lg:text-xl lg:py-1.5 sm:py-1
-              text-md
-            "
-            >Tap and Rise</span
-          >
+          <span class="title-style">Tap and Rise</span>
         </template>
       </App>
       <App>
         <template #text>
-          <span
-            class="
-              text-center
-              font-robol
-              md:py-4
-              sm:text-sm
-              row-span-2
-              py-2
-              px-2
-              text-xs
-              lg:h-24
-              md:h-28
-              sm:h-36
-              h-20
-            "
+          <span class="text-style"
             >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
             uygulama çıkartmak hedefimin ürünü.</span
           >
         </template>
         <template #icon>
-          <div
-            class="
-              xl:h-20 xl:w-20
-              md:h-16 md:w-16
-              sm:h-14 sm:w-14
-              h-14
-              w-14
-              hover:bg-paw
-              bg-contain bg-no-repeat bg-pawYellow
-            "
-          ></div>
+          <div class="icon-size hover:bg-paw bg-pawYellow"></div>
         </template>
         <template #title>
-          <span
-            class="
-              text-center
-              font-robom
-              lg:text-xl lg:py-1.5 sm:py-1
-              text-md
-            "
-            >Catch Game For Cats</span
-          >
+          <span class="title-style">Catch Game For Cats</span>
         </template>
       </App>
       <App>
         <template #text>
-          <span
-            class="
-              text-center
-              font-robol
-              md:py-4
-              sm:text-sm
-              row-span-2
-              py-2
-              px-2
-              text-xs
-              lg:h-24
-              md:h-28
-              sm:h-36
-              h-20
-            "
+          <span class="text-style"
             >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
             geliştirdiğim oyunum.</span
           >
         </template>
         <template #icon>
-          <div
-            class="
-              xl:h-20 xl:w-20
-              md:h-16 md:w-16
-              sm:h-14 sm:w-14
-              h-14
-              w-14
-              hover:bg-four
-              bg-contain bg-no-repeat bg-fourYellow
-            "
-          ></div>
+          <div class="icon-size hover:bg-four bg-fourYellow"></div>
         </template>
         <template #title>
-          <span
-            class="
-              text-center
-              font-robom
-              lg:text-xl lg:py-1.5
-              sm:py-1
-              text-md
-            "
-            >4 İşlem Oyunu</span
-          >
+          <span class="title-style">4 İşlem Oyunu</span>
         </template>
       </App>
     </div>
@@ -171,11 +71,18 @@ export default {
 
 <style scoped>
 mark {
-  display: inline-block;
-  line-height: 0.03em;
-  background: #ffcf16;
-  padding-bottom: 0.3em;
   width: 6em;
-  border-radius: 20px;
+}
+
+.icon-size {
+  @apply xl:h-20 xl:w-20 md:h-16 md:w-16 h-14 w-14   bg-contain bg-no-repeat;
+}
+
+.title-style {
+  @apply text-center font-robom lg:text-xl lg:py-1.5 sm:py-1;
+}
+
+.text-style {
+  @apply text-center font-robol md:py-4 sm:text-sm row-span-2 py-2 px-2 text-xs lg:h-24 md:h-28 sm:h-36 h-20;
 }
 </style>

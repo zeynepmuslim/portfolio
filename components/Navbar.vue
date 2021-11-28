@@ -6,76 +6,87 @@
         font-bebas
         align-baseline
         text-center
-        lg:h-8 lg:text-l lg:mt-3
-        md:h-4 md:grid-cols-7 md:mt-2
-        grid-cols-7 sm:h-12 h-9
+        lg:h-8 lg:mt-3
+        md:h-4 md:mt-2
+        grid-cols-7
+        sm:h-12
+        h-9
         hidden
       "
     >
-      <div class="grid grid-rows-2 lg:mt-5 mt-6 bg-white">
+      <div class="row-2 lg:mt-5 mt-6 bg-white">
         <li class="md:block hidden"></li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
+        <div class="bg-softYellow line-s"></div>
       </div>
-      <NuxtLink class="h-7 bg-white" to="/"><div class="grid grid-rows-2">
-        <li class="hidden md:block pb-1">ANA SAYFA</li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
-      </div></NuxtLink>
-      <NuxtLink class="h-7 bg-white" to="/programming"><div class="grid grid-rows-2">
-        <li class="hidden md:block pb-1">YAZILIM</li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
-      </div></NuxtLink>
-      <NuxtLink class="h-7 bg-white" to="/youtube"><div class="grid grid-rows-2">
-        <li class="hidden md:block pb-1">YOUTUBE</li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
-      </div></NuxtLink>
-      <NuxtLink class="h-7 bg-white" to="/design"><div class="grid grid-rows-2">
-        <li class="hidden md:block pb-1">TASARIM</li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
-      </div></NuxtLink>
-      <NuxtLink class="h-7 bg-white" to="/communication"><div class="grid grid-rows-2">
-        <li class="hidden md:block pb-1">İLETİŞİM</li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
-      </div></NuxtLink>
+      <NuxtLink class="nav-h bg-white" to="/"
+        ><div class="row-2">
+          <li class="text-block">ANA SAYFA</li>
+          <div class="bg-softYellow line-s"></div></div
+      ></NuxtLink>
+      <NuxtLink class="nav-h bg-white" to="/programming"
+        ><div class="row-2">
+          <li class="text-block">YAZILIM</li>
+          <div class="bg-softYellow line-s"></div></div
+      ></NuxtLink>
+      <NuxtLink class="nav-h bg-white" to="/youtube"
+        ><div class="row-2">
+          <li class="text-block">YOUTUBE</li>
+          <div class="bg-softYellow line-s"></div></div
+      ></NuxtLink>
+      <NuxtLink class="nav-h bg-white" to="/design"
+        ><div class="row-2">
+          <li class="text-block">TASARIM</li>
+          <div class="bg-softYellow line-s"></div></div
+      ></NuxtLink>
+      <NuxtLink class="nav-h bg-white" to="/communication"
+        ><div class="row-2">
+          <li class="text-block">İLETİŞİM</li>
+          <div class="bg-softYellow line-s"></div></div
+      ></NuxtLink>
       <div class="grid grid-rows-2 lg:mt-5 mt-6 bg-white">
         <li class="md:block hidden pb-1"></li>
-        <div class="bg-softYellow lg:h-2 h-1"></div>
+        <div class="bg-softYellow line-s"></div>
       </div>
-
-</ul>
-<ul
-      class="
-        grid
-        font-bebas
-        align-baseline
-        text-center
-        grid-cols-5 
-        md:hidden
-        
-      "
+    </ul>
+    <ul
+      class="grid font-bebas align-baseline text-center grid-cols-5 md:hidden"
     >
-      <NuxtLink to="/"><div class="h-9 grid grid-rows-2 ">
-        <li class="md:hidden block mx-auto p-1.5 h-6"><img class="h-6" src="../src/icons/home.png"></li>
-        <div class="bg-softYellow h-1 mt-4"></div>
-      </div></NuxtLink>
-      <NuxtLink to="/programming"><div class="h-9 grid grid-rows-2 ">
-        <li class="md:hidden block mx-auto p-1.5 h-6"><img class="h-6" src="../src/icons/code.png"></li>
-        <div class="bg-softYellow h-1 mt-4"></div>
-      </div></NuxtLink>
-      <NuxtLink to="/youtube"><div class="h-9 grid grid-rows-2">
-        <li class="md:hidden block mx-auto p-1.5 h-6"><img class="h-6" src="../src/icons/youtube.png"></li>
-        <div class="bg-softYellow h-1 mt-4"></div>
-      </div></NuxtLink>
-      <NuxtLink to="/design"><div class="h-9 grid grid-rows-2">
-        <li class="md:hidden block mx-auto p-1.5 h-6"><img class="h-6" src="../src/icons/design.png"></li>
-        <div class="bg-softYellow h-1 mt-4"></div>
-      </div></NuxtLink>
-      <NuxtLink to="/communication"><div class="h-9 grid grid-rows-2">
-        <li class="md:hidden block mx-auto p-1.5 h-6"><img class="h-6" src="../src/icons/phone.png"></li>
-        <div class="bg-softYellow h-1 mt-4"></div>
-      </div></NuxtLink>
-
-</ul>
-  
+      <NuxtLink to="/"
+        ><div class="nav-h-grid-mobile">
+          <li class="icon-mobile">
+            <img class="img-h" src="../src/icons/home.png" />
+          </li>
+          <div class="bg-softYellow line-mobile"></div></div
+      ></NuxtLink>
+      <NuxtLink to="/programming"
+        ><div class="nav-h-grid-mobile">
+          <li class="icon-mobile">
+            <img class="img-h" src="../src/icons/code.png" />
+          </li>
+          <div class="bg-softYellow line-mobile"></div></div
+      ></NuxtLink>
+      <NuxtLink to="/youtube"
+        ><div class="nav-h-grid-mobile">
+          <li class="icon-mobile">
+            <img class="img-h" src="../src/icons/youtube.png" />
+          </li>
+          <div class="bg-softYellow line-mobile"></div></div
+      ></NuxtLink>
+      <NuxtLink to="/design"
+        ><div class="nav-h-grid-mobile">
+          <li class="icon-mobile">
+            <img class="img-h" src="../src/icons/design.png" />
+          </li>
+          <div class="bg-softYellow line-mobile"></div></div
+      ></NuxtLink>
+      <NuxtLink to="/communication"
+        ><div class="nav-h-grid-mobile">
+          <li class="icon-mobile">
+            <img class="img-h" src="../src/icons/phone.png" />
+          </li>
+          <div class="bg-softYellow line-mobile"></div></div
+      ></NuxtLink>
+    </ul>
   </div>
 </template>
 
@@ -84,3 +95,30 @@ export default {
   name: 'Navbar',
 }
 </script>
+
+<style scoped>
+.line-s {
+  @apply lg:h-2 h-1;
+}
+.text-block {
+  @apply hidden md:block pb-1;
+}
+.row-2 {
+  @apply grid grid-rows-2;
+}
+.nav-h {
+  @apply h-7;
+}
+.nav-h-grid-mobile {
+  @apply h-9 grid grid-rows-2;
+}
+.line-mobile {
+  @apply h-1 mt-4;
+}
+.icon-mobile {
+  @apply md:hidden block mx-auto p-1.5 h-6;
+}
+.img-h {
+  @apply h-6;
+}
+</style>

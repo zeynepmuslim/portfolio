@@ -44,7 +44,6 @@
             my-auto
             lg:text-lg lg:pl-2
             md:pl-3
-            sm:col-span-2
             col-span-2
             text-md
             pt-1

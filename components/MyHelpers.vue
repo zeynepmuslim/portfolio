@@ -42,23 +42,23 @@
         <span class="mx-auto">Procreate</span>
       </div>
       <div class="mb-4">
-        <div class="icon-mobilebg-figmaY hover:bg-figma"></div>
+        <div class="icon-mobile bg-figmaY hover:bg-figma"></div>
         <span class="mx-auto">FIgma</span>
       </div>
       <div class="mb-4">
-        <div class="icon-mobilebg-visualY hover:bg-visual"></div>
+        <div class="icon-mobile bg-visualY hover:bg-visual"></div>
         <span class="mx-auto">Visual studio code</span>
       </div>
       <div class="mb-4">
-        <div class="icon-mobilebg-premiereY hover:bg-premiere"></div>
+        <div class="icon-mobile bg-premiereY hover:bg-premiere"></div>
         <span class="mx-auto">Adobe Premiere pro</span>
       </div>
       <div class="mb-4">
-        <div class="icon-mobilebg-photoshopY hover:bg-photoshop"></div>
+        <div class="icon-mobile bg-photoshopY hover:bg-photoshop"></div>
         <span class="mx-auto">Adobe photoshop</span>
       </div>
       <div class="mb-4">
-        <div class="icon-mobilebg-illustratorY hover:bg-illustrator"></div>
+        <div class="icon-mobile bg-illustratorY hover:bg-illustrator"></div>
         <span class="mx-auto">Adobe ıllustrator</span>
       </div>
     </div>

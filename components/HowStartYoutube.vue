@@ -32,7 +32,7 @@
             grid
             xl:row-span-2
             grid-cols-2
-            ml-4
+            -ml-2
             mx-auto
             w-full
           "
@@ -81,7 +81,7 @@ mark {
   width: 5.7em;
 }
 .thumnail-img {
-  @apply xl:h-28 xl:w-52 sm:row-span-2 sm:h-32 sm:w-52 row-span-2 h-24 w-52 bg-contain bg-no-repeat
+  @apply xl:h-28 xl:w-52 sm:row-span-2 sm:h-32 sm:w-52 row-span-2 h-24 w-40 bg-contain bg-no-repeat
 }
 .thumnail-date {
   @apply text-center font-robol xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0 sm:ml-5 sm:text-lg sm:-mb-5 w-48 -mb-3

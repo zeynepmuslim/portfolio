@@ -9,7 +9,7 @@
         lg:mt-0
         md:text-md
         sm:w-52 sm:text-lg
-        w-44
+        w-40
         pr-1
         text-md
         mt-2

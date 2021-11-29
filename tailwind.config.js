@@ -2,7 +2,6 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    
     fontFamily: {
       bebas: "BebasNeue, sans-serif",
       nick: "Nickainley, serif",
@@ -95,8 +94,8 @@ module.exports = {
         'tailwindY': "url('~/src/tecsIcon/tailwindY.png')",
         'vuejs': "url('~/src/tecsIcon/vuejs.png')",
         'vuejsY': "url('~/src/tecsIcon/vuejsY.png')",
-        'earring': "url('~/src/img/earring.png')",
         'earringY': "url('~/src/img/earringY.png')",
+        'earring': "url('~/src/img/earring.png')",
         'sticker': "url('~/src/img/sticker.png')",
         'stickerY': "url('~/src/img/stickerY.png')",
       }

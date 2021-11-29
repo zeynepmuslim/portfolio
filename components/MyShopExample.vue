@@ -78,6 +78,7 @@
               hover:bg-sticker
               h-56
               w-44
+
             "
           ></div>
         </div>

@@ -2,29 +2,30 @@
   <div class="mx-auto xl:my-16 resp-w xl:-mt-4 sm:mt-7 mt-10">
     <span class="header-style"><mark>içeriklerim</mark></span>
     <div
-      class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-3"
+      class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-2"
     >
-      <div class="div-style">
+      <div class="grid grid-rows-4 col-span-2">
         <div class="icon bg-booksIconY hover:bg-booksIcon"></div>
         <span class="title">KİTAPLAR</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
-      <div class="div-style">
-        <div class="icon bg-studyIconY hover:bg-studyIcon"></div>
+      <div class="grid grid-rows-4 col-span-2">
+        <div class="icon bg-studyIconY hover:bg-studyIcon">
+        </div>
         <span class="title">Ders Çalışma</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
-      <div class="div-style">
+      <div class="grid grid-rows-4 col-span-2">
         <div class="icon bg-pawIconY hover:bg-pawIcon"></div>
         <span class="title">Kedİler</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
-      <div class="div-style col-start-2 mt-8">
+      <div class="grid grid-rows-4 col-span-2 col-start-2 mt-8">
         <div class="icon bg-hobbyIconY hover:bg-hobbyIcon"></div>
         <span class="title">HoBİLER</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
-      <div class="div-style col-start-4 mt-8">
+      <div class="grid grid-rows-4 col-span-2 col-start-4 mt-8">
         <div class="icon bg-vlogIconY hover:bg-vlogIcon"></div>
         <span class="title">Vlog</span>
         <Button>OynatmaLİsteSİ</Button>
@@ -91,7 +92,7 @@ mark {
   @apply grid grid-rows-5 col-span-2;
 }
 .icon {
-  @apply row-span-3 h-24 w-24 mx-auto bg-contain bg-no-repeat;
+  @apply row-span-2 sm:h-24 sm:w-24 h-20 w-20 mx-auto bg-contain bg-no-repeat;
 }
 .title {
   @apply pt-1 mb-2;

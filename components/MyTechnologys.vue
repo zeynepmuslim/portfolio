@@ -74,6 +74,6 @@ mark {
   width: 8.5em;
 }
 .icon {
-  @apply lg:h-20 lg:w-20 h-16 w-16 mb-2 bg-contain bg-no-repeat;
+  @apply lg:h-20 lg:w-20 sm:h-16 sm:w-16 h-12 w-12 mb-2 bg-contain bg-no-repeat mx-auto;
 }
 </style>

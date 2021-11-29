@@ -46,9 +46,9 @@ mark {
   @apply text-2xl;
 }
 .img-size {
-  @apply row-span-3 lg:h-56 md:h-48 h-36;
+  @apply sm:row-span-3 lg:h-56 md:h-48 sm:h-36 h-28 row-span-2;
 }
 .img-div {
-  @apply grid grid-rows-4 mx-auto;
+  @apply grid sm:grid-rows-4 grid-rows-3 mx-auto;
 }
 </style>

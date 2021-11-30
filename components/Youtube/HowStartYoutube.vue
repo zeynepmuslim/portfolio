@@ -41,7 +41,7 @@
             <div class="thumnail-date">2018</div>
             <ThumbnailForYoutube>
               <template #image>
-                <div class="thumnail-img bg-tumFiveY hover:bg-tumFive"></div>
+                <img class="thumnail-img yellow-shadow pointer" src="/thumbnails/five.png"/>
               </template>
               <template #title>
                 <span>Kedİ Sahİplenmeden Önce Alınması Gerekenler</span>
@@ -53,7 +53,7 @@
             <div class="thumnail-date">2021</div>
             <ThumbnailForYoutube>
               <template #image>
-                <div class="thumnail-img bg-tumOneY hover:bg-tumOne"></div>
+                <img class="thumnail-img yellow-shadow pointer" src="/thumbnails/one.png"/>
               </template>
               <template #title>
                 <span>Yenİ Nesİl YKS'cİ olmak // 12. Sınıf Vlog</span>
@@ -81,7 +81,7 @@ mark {
   width: 5.7em;
 }
 .thumnail-img {
-  @apply xl:h-28 xl:w-52 sm:row-span-2 sm:h-32 sm:w-52 row-span-2 h-24 w-40 bg-contain bg-no-repeat
+  @apply sm:w-52 row-span-2 w-40 
 }
 .thumnail-date {
   @apply text-center font-robol xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0 sm:ml-5 sm:text-lg sm:-mb-5 w-48 -mb-3

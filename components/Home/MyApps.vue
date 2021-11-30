@@ -13,6 +13,7 @@
   >
     <span class="header-style"><mark>uygulamalarım</mark></span>
     <div class="grid sm:mt-8 grid-cols-3 mt-8">
+      <div class="flex flex-col">
       <App>
         <template #text>
           <span class="text-style"
@@ -21,13 +22,16 @@
           >
         </template>
         <template #icon>
-          <div class="icon-size hover:bg-bat bg-batYellow"></div>
+          <img class="icon-size yellow-shadow pointer" src="/icons/apps/bat.png"/>
         </template>
         <template #title>
           <span class="title-style">Tap and Rise</span>
         </template>
       </App>
-      <App>
+      <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+      </div>
+      <div class="flex flex-col">
+      <App class="">
         <template #text>
           <span class="text-style"
             >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
@@ -35,13 +39,16 @@
           >
         </template>
         <template #icon>
-          <div class="icon-size hover:bg-paw bg-pawYellow"></div>
+          <img class="icon-size yellow-shadow pointer" src="/icons/apps/paw.png"/>
         </template>
         <template #title>
           <span class="title-style">Catch Game For Cats</span>
         </template>
       </App>
-      <App>
+      <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+      </div>
+      <div class="flex flex-col">
+      <App class="">
         <template #text>
           <span class="text-style"
             >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
@@ -49,22 +56,26 @@
           >
         </template>
         <template #icon>
-          <div class="icon-size hover:bg-four bg-fourYellow"></div>
+          <img class="icon-size yellow-shadow pointer" src="/icons/apps/four.png"/>
         </template>
         <template #title>
           <span class="title-style">4 İşlem Oyunu</span>
         </template>
       </App>
+       <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import App from '~/components/App.vue'
+import Button from '~/components/Button.vue'
 export default {
   name: 'MyApps',
   components: {
     App,
+    Button,
   },
 }
 </script>

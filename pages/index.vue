@@ -83,6 +83,29 @@ mark {
 }
 
 .pointer {
-  @apply cursor-pointer
+  @apply cursor-pointer;
+}
+
+.yellow-shadow {
+  filter: drop-shadow(-0.3rem 0.3rem 0px rgba(255, 207, 22, 1));
+  margin-bottom: 0.3rem;
+}
+
+.yellow-shadow:hover {
+  position:relative;
+  right: 0.3rem;
+  top: 0.3rem;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+.yellow-shadow-icon {
+  filter: drop-shadow(-0.23rem 0.23rem 0px rgba(255, 207, 22, 1));
+  margin-bottom: 0.23rem;
+}
+
+.yellow-shadow-icon:hover {
+  position:relative;
+  right: 0.23rem;
+  top: 0.23rem;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
 }
 </style>

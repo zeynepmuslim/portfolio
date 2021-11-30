@@ -4,7 +4,7 @@
     <div class="grid md:grid-cols-4 grid-cols-2">
       <Thumbnail>
         <template #image>
-          <div class="thumnail bg-tumOneY hover:bg-tumOne"></div>
+          <img class="thumnail yellow-shadow pointer " src="/thumbnails/one.png"/>
         </template>
         <template #title>
           <span>Yenİ Nesil YKS'ci olmak // 12. Sınıf Vlog</span>
@@ -12,7 +12,7 @@
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <div class="thumnail bg-tumTwoY hover:bg-tumTwo"></div>
+          <img class="thumnail yellow-shadow pointer " src="/thumbnails/two.png"/>
         </template>
         <template #title>
           <span>Çimenlerde Ders, Yazılım, Kitap, Oyun // Karışık Vlog</span>
@@ -20,7 +20,7 @@
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <div class="thumnail bg-tumTreeY hover:bg-tumTree"></div>
+          <img class="thumnail yellow-shadow pointer " src="/thumbnails/tree.png"/>
         </template>
         <template #title>
           <span>Kedim için 12 Saatte Oyun Yaptım // Newbie Yazılımcı</span>
@@ -28,7 +28,7 @@
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <div class="thumnail bg-tumFourY hover:bg-tumFour"></div>
+          <img class="thumnail yellow-shadow pointer " src="/thumbnails/four.png"/>
         </template>
         <template #title>
           <span>500 km // Bi' Değişik Ders Çalışma Günlüğü - 1</span>
@@ -53,6 +53,6 @@ mark {
   width: 3.5em;
 }
 .thumnail {
-  @apply xl:h-28 xl:w-52 lg:w-44 md:w-32 sm:w-52 row-span-2 h-24 w-52 bg-contain bg-no-repeat;
+  @apply xl:w-52 lg:w-44 md:w-32 row-span-2 w-52;
 }
 </style>

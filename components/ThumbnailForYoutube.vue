@@ -5,7 +5,7 @@
       class="
         text-center
         font-bebas
-        xl:w-48 xl:pt-1 xl:text-xl
+        xl:pt-1 xl:text-xl
         lg:mt-0
         md:text-md
         sm:w-52 sm:text-lg

@@ -38,7 +38,6 @@
             grid
             xl:row-span-2
             grid-cols-2
-            ml-4
             mx-auto
             w-full
           "
@@ -46,7 +45,7 @@
           <div class="mx-auto xl:my-auto">
             <ThumbnailForYoutube>
               <template #image>
-                <div class="thumanil-img bg-tumSixY hover:bg-tumSix"></div>
+                <img class="thumanil-img yellow-shadow pointer" src="/thumbnails/six.png"/>
               </template>
               <template #title>
                 <span>Hama Boncuk - Perler Beads // Hobi arayışı - 1</span>
@@ -57,7 +56,7 @@
           <div class="mx-auto xl:my-auto">
             <ThumbnailForYoutube>
               <template #image>
-                <div class="thumanil-img bg-tumSevenY hover:bg-tumSeven"></div>
+                <img class="thumanil-img yellow-shadow pointer" src="/thumbnails/seven.png"/>
               </template>
               <template #title>
                 <span>Bullet Journal - Planlayıcı // Hobi Arayışı - 2</span>
@@ -85,6 +84,6 @@ mark {
   width: 5.7em;
 }
 .thumanil-img {
-  @apply xl:h-28 sm:row-span-2 sm:h-32 row-span-2 h-24 w-52 bg-contain bg-no-repeat;
+  @apply row-span-2 w-40 sm:w-52 bg-contain bg-no-repeat;
 }
 </style>

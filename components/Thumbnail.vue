@@ -1,19 +1,19 @@
 <template>
-  <div class="mx-auto pl-3 grid lg:py-3 sm:pt-7 pt-4 grid-rows-2">
+  <div class="mx-auto pl-3 lg:py-3 sm:pt-7 pt-4 grid grid-rows-2">
     <slot name="image"></slot>
     <div
       class="
         text-center
         font-bebas
-        xl:w-48 xl:pt-1
-        lg:w-44
+         xl:pt-1
+        
         xl:text-xl
         lg:mt-0
-        md:w-32 md:-mt-3
-        sm:text-lg
-        w-44
+        xl:w-52 lg:w-44 md:w-32 w-52 md:-mt-3
+        md:pt-4
+        sm:pt-0
         pr-1
-        text-sm
+        text-lg
       "
     >
       <slot name="title"></slot>

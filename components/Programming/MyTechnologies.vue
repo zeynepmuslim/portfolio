@@ -19,44 +19,44 @@
       "
     >
       <div class="mx-auto">
-        <div class="bg-swiftY hover:bg-swift icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/swift.svg"/>
         <span>Swift</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-jsY hover:bg-js icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/js.svg"/>
         <span>Javascript</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-vuejsY hover:bg-vuejs icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/vue.svg"/>
         <span>Vue.JS</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-nuxtY hover:bg-nuxt icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/nuxt.svg"/>
         <span>Nuxt.js</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-nodejsY hover:bg-nodejs icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/nodejs.svg"/>
         <span>Node.js</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-htmlY hover:bg-html icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/html.svg"/>
         <span>html</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-cssY hover:bg-css icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/css.svg"/>
         <span>css</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-bootstrapY hover:bg-bootstrap icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/bootstrap.svg"/>
         <span>bootstrap</span>
       </div>
       <div class="md:hidden block"></div>
       <div class="mx-auto">
-        <div class="bg-tailwindY hover:bg-tailwind icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/tailwind.svg"/>
         <span>tailwind</span>
       </div>
       <div class="mx-auto">
-        <div class="bg-gitY hover:b-git icon"></div>
+        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/git.svg"/>
         <span>gIt</span>
       </div>
     </div>

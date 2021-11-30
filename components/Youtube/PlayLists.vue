@@ -5,28 +5,42 @@
       class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-2"
     >
       <div class="grid grid-rows-4 col-span-2">
-        <div class="icon bg-booksIconY hover:bg-booksIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/books.svg"
+        />
         <span class="title">KİTAPLAR</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
       <div class="grid grid-rows-4 col-span-2">
-        <div class="icon bg-studyIconY hover:bg-studyIcon">
-        </div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/study.svg"
+        />
         <span class="title">Ders Çalışma</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
       <div class="grid grid-rows-4 col-span-2">
-        <div class="icon bg-pawIconY hover:bg-pawIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/paw.svg"
+        />
         <span class="title">Kedİler</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
       <div class="grid grid-rows-4 col-span-2 col-start-2 mt-8">
-        <div class="icon bg-hobbyIconY hover:bg-hobbyIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/hobby.svg"
+        />
         <span class="title">HoBİLER</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
       <div class="grid grid-rows-4 col-span-2 col-start-4 mt-8">
-        <div class="icon bg-vlogIconY hover:bg-vlogIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/vlog.svg"
+        />
         <span class="title">Vlog</span>
         <Button>OynatmaLİsteSİ</Button>
       </div>
@@ -46,27 +60,42 @@
       "
     >
       <div class="grid grid-rows-5">
-        <div class="icon-m bg-booksIconY hover:bg-booksIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/books.svg"
+        />
         <span>KİTAPLAR</span>
         <Button>Oynatma LİSTESİ</Button>
       </div>
       <div class="grid grid-rows-5">
-        <div class="icon-m bg-studyIconY hover:bg-studyIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/study.svg"
+        />
         <span>Ders Çalışma</span>
         <Button>Oynatma LİSTESİ</Button>
       </div>
       <div class="grid grid-rows-5">
-        <div class="icon-m bg-pawIconY hover:bg-pawIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/paw.svg"
+        />
         <span>Kedİler</span>
         <Button>Oynatma LİSTESİ</Button>
       </div>
       <div class="grid grid-rows-5">
-        <div class="icon-m bg-hobbyIconY hover:bg-hobbyIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/hobby.svg"
+        />
         <span>HoBİLER</span>
         <Button>Oynatma LİSTESİ</Button>
       </div>
       <div class="grid grid-rows-5">
-        <div class="icon-m bg-vlogIconY hover:bg-vlogIcon"></div>
+        <img
+          class="icon-m yellow-shadow-icon pointer"
+          src="/icons/youtube/vlog.svg"
+        />
         <span>Vlog</span>
         <Button>Oynatma LİSTESİ</Button>
       </div>
@@ -91,7 +120,7 @@ mark {
 .div-style {
   @apply grid grid-rows-5 col-span-2;
 }
-.icon {
+.icon-m {
   @apply row-span-2 sm:h-24 sm:w-24 h-20 w-20 mx-auto bg-contain bg-no-repeat;
 }
 .title {
@@ -100,7 +129,7 @@ mark {
 .div-style-m {
   @apply grid grid-rows-5;
 }
-.icon-m {
+.icon {
   @apply row-span-3 mb-3 lg:w-24 lg:h-24 md:w-20 md:h-20 mx-auto bg-contain bg-no-repeat;
 }
 </style>

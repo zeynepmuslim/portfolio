@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full fixed xl:-mt-16 bg-white mb-6">
+  <div class="w-full fixed xl:-mt-16 bg-white mb-6 z-50">
     <ul
       class="
         md:grid
@@ -54,35 +54,35 @@
       <NuxtLink to="/"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="/icons/navbar/home.png" />
+            <img class="img-h" src="/icons/navbar/home.svg" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/programming"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="/icons/navbar/code.png" />
+            <img class="img-h" src="/icons/navbar/code.svg" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/youtube"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="/icons/navbar/youtube.png" />
+            <img class="img-h" src="/icons/navbar/youtube.svg" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/design"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="/icons/navbar/design.png" />
+            <img class="img-h" src="/icons/navbar/design.svg" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/communication"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="/icons/navbar/phone.png" />
+            <img class="img-h" src="/icons/navbar/phone.svg" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>

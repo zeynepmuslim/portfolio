@@ -12,7 +12,7 @@
           >
         </template>
         <template #icon>
-          <div class="app-icon hover:bg-bat bg-batYellow"></div>
+          <img class="app-icon yellow-shadow pointer" src="/icons/apps/bat.png"/>
         </template>
         <template #title>
           <span class="title-style">Tap and Rise</span>
@@ -28,7 +28,7 @@
           >
         </template>
         <template #icon>
-          <div class="app-icon hover:bg-paw bg-pawYellow"></div>
+          <img class="app-icon yellow-shadow pointer" src="/icons/apps/paw.png"/>
         </template>
         <template #title>
           <span class="title-style">Catch Game For Cats</span>
@@ -44,7 +44,7 @@
           >
         </template>
         <template #icon>
-          <div class="app-icon hover:bg-four bg-fourYellow"></div>
+          <img class="app-icon yellow-shadow pointer" src="/icons/apps/four.png"/>
         </template>
         <template #title>
           <span class="title-style">4 İşlem Oyunu</span>
@@ -54,8 +54,7 @@
     <div class="grid grid-cols-3 mt-8 md:hidden"></div>
     <AppForStoryMobile>
       <template #icon
-        ><div class="app-icon-m bg-batYellow hover:bg-bat"></div
-      ></template>
+        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/bat.png"/></template>
       <template #title> Tap and Rise </template>
       <template #text>
         Oyun motoru eğimlerim sırasında öğrendiğim ünlü “Flappy Bird”
@@ -66,8 +65,7 @@
     </AppForStoryMobile>
     <AppForStoryMobile>
       <template #icon
-        ><div class="app-icon-m bg-pawYellow hover:bg-paw"></div
-      ></template>
+        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/paw.png"/></template>
       <template #title> Catch Game For Cats </template>
       <template #text>
         Kedim için indirdiğim uygulamların reklam dolu olması ile “Ben bu oyunu
@@ -77,8 +75,7 @@
     </AppForStoryMobile>
     <AppForStoryMobile>
       <template #icon
-        ><div class="app-icon-m bg-fourYellow hover:bg-four"></div
-      ></template>
+        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/four.png"/></template>
       <template #title> 4 İşlem Oyunu </template>
       <template #text>
         İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
@@ -91,26 +88,20 @@
       <div
         class="
           bg-lightGray
-          grid grid-cols-4
+          grid grid-cols-5
           rounded-3xl
           shadow-xl
           hover:shadow-inner
           p-4
         "
       >
-        <div class="my-auto mx-auto">
-          <div
-            class="
-              bg-tumTreeY
-              hover:bg-tumTree
-              bg-contain bg-no-repeat
-              lg:h-28 lg:w-48
-              h-24
-              w-40
-            "
-          ></div>
+        <div class="col-span-2 my-auto mx-auto pl-2">
+          <img
+            src="/thumbnails/tree.png"
+            class="pointer yellow-shadow m-auto"
+          />
         </div>
-        <div class="col-span-3 grid my-auto pl-8">
+        <div class="col-span-3 grid my-auto pl-2">
           <div class="font-robol sm:text-sm text-xs mb-4 text-center pl-6">
             <span name="text">
               YouTubeb kanalımda kendisinin yapıldığı o 12 saat ve ardından 36.
@@ -118,53 +109,7 @@
               bulunmakta.</span
             >
           </div>
-          <div
-            class="
-              transition
-              duration-500
-              ease-in-out
-              group
-              bg-yellow
-              hover:bg-black hover:text-yellow
-              rounded-full
-              mx-auto
-              grid
-              xl:h-10
-              md:w-36
-              w-32
-              grid-cols-3
-              h-8
-            "
-          >
-            <div
-              class="
-                transition
-                duration-500
-                ease-in-out
-                my-auto
-                bg-youtubeBlFill bg-contain bg-no-repeat
-                group-hover:bg-youtubeYeFill
-                md:ml-6
-                bt-1
-                h-4
-                w-5
-                ml-6
-              "
-            ></div>
-            <span
-              class="
-                font-bebas
-                my-auto
-                lg:text-lg lg:pl-2
-                md:pl-3
-                col-span-2
-                text-md
-                pt-1
-                pl-2
-              "
-              >YouTube</span
-            >
-          </div>
+          <div class="w-1/2 mx-auto"><Button>Youtube</Button></div>
         </div>
       </div>
     </div>
@@ -173,12 +118,14 @@
 
 <script>
 import App from '~/components/App.vue'
+import Button from '~/components/Button.vue'
 import AppForStoryMobile from '~/components/Programming/AppForStoryMobile.vue'
 export default {
   name: 'MyAppsStories',
   components: {
     App,
     AppForStoryMobile,
+    Button,
   },
 }
 </script>

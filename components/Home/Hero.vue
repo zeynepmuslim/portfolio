@@ -77,23 +77,33 @@
     >
       <div class="md:block hidden"></div>
       <a target="_blank" href="https://www.instagram.com/zeynep.muslim.mix/"
-        ><img class="icons-style pointer yellow-shadow-icon" src="/icons/social/instagram.svg"
+        ><img
+          class="icons-style pointer yellow-shadow-icon"
+          src="/icons/social/instagram.svg"
       /></a>
       <a target="_blank" href="https://www.linkedin.com/in/zeynep-müslim/"
-        ><img class="icons-style pointer yellow-shadow-icon" src="/icons/social/linkedin.svg"
+        ><img
+          class="icons-style pointer yellow-shadow-icon"
+          src="/icons/social/linkedin.svg"
       /></a>
       <a
         target="_blank"
         href="https://www.youtube.com/channel/UCNp9gN3i1hSs4JvL6b3FZHw"
-        ><img class="icons-style pointer yellow-shadow-icon" src="/icons/social/youtube.svg"
+        ><img
+          class="icons-style pointer yellow-shadow-icon"
+          src="/icons/social/youtube.svg"
       /></a>
       <a target="_blank" href="https://github.com/zeynepmuslim"
-        ><img class="icons-style pointer yellow-shadow-icon" src="/icons/social/github.svg"
+        ><img
+          class="icons-style pointer yellow-shadow-icon"
+          src="/icons/social/github.svg"
       /></a>
       <a
-        target="_blank"
+        target="_blank"     
         href="https://www.shopier.com/ShowProductNew/storefront.php?shop=rmbtasarim&sid=UUJmaXRTcjlXU0twSG16bjBfLTFfIF8g"
-        ><img class="icons-style pointer yellow-shadow-icon" src="/icons/social/shop.svg"
+        ><img
+          class="icons-style pointer yellow-shadow-icon"
+          src="/icons/social/shop.svg"
       /></a>
       <div class="md:block hidden"></div>
     </div>
@@ -116,6 +126,6 @@ mark {
 }
 
 .icons-style {
-  @apply mx-auto xl:w-12 xl:h-12 lg:w-10 lg:h-10 sm:w-9 sm:h-9 w-10 h-10 ;
+  @apply mx-auto xl:w-12 xl:h-12 lg:w-10 lg:h-10 sm:w-9 sm:h-9 w-10 h-10;
 }
 </style>

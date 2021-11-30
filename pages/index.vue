@@ -92,18 +92,18 @@ mark {
 }
 
 .yellow-shadow:hover {
-  position:relative;
+  position: relative;
   right: 0.3rem;
   top: 0.3rem;
   filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
 }
 .yellow-shadow-icon {
   filter: drop-shadow(-0.23rem 0.23rem 0px rgba(255, 207, 22, 1));
-  margin-bottom: 0.23rem;
+  margin-bottom: 0.4rem;
 }
 
 .yellow-shadow-icon:hover {
-  position:relative;
+  position: relative;
   right: 0.23rem;
   top: 0.23rem;
   filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));

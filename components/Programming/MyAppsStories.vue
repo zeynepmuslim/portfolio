@@ -12,10 +12,20 @@
           >
         </template>
         <template #icon>
-          <img class="app-icon yellow-shadow pointer" src="/icons/apps/bat.png"/>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+            ><img
+              class="app-icon yellow-shadow pointer"
+              src="/icons/apps/bat.png"
+          /></a>
         </template>
         <template #title>
-          <span class="title-style">Tap and Rise</span>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+            ><div class="title-style">Tap and Rise</div></a
+          >
         </template>
       </App>
       <App>
@@ -28,10 +38,20 @@
           >
         </template>
         <template #icon>
-          <img class="app-icon yellow-shadow pointer" src="/icons/apps/paw.png"/>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
+            ><img
+              class="app-icon yellow-shadow pointer"
+              src="/icons/apps/paw.png"
+          /></a>
         </template>
         <template #title>
-          <span class="title-style">Catch Game For Cats</span>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
+            ><div class="title-style">Catch Game For Cats</div></a
+          >
         </template>
       </App>
       <App>
@@ -44,18 +64,41 @@
           >
         </template>
         <template #icon>
-          <img class="app-icon yellow-shadow pointer" src="/icons/apps/four.png"/>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+            ><img
+              class="app-icon yellow-shadow pointer"
+              src="/icons/apps/four.png"
+          /></a>
         </template>
         <template #title>
-          <span class="title-style">4 İşlem Oyunu</span>
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+            ><div class="title-style">4 İşlem Oyunu</div></a
+          >
         </template>
       </App>
     </div>
     <div class="grid grid-cols-3 mt-8 md:hidden"></div>
     <AppForStoryMobile>
       <template #icon
-        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/bat.png"/></template>
-      <template #title> Tap and Rise </template>
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+          ><img
+            class="app-icon-m yellow-shadow pointer"
+            src="/icons/apps/bat.png"
+        /></a>
+      </template>
+      <template #title
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+          >Tap and Rise</a
+        ></template
+      >
       <template #text>
         Oyun motoru eğimlerim sırasında öğrendiğim ünlü “Flappy Bird”
         mekanikleri ardından daha da geliştererek 4 farklı dil, online skor
@@ -65,8 +108,20 @@
     </AppForStoryMobile>
     <AppForStoryMobile>
       <template #icon
-        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/paw.png"/></template>
-      <template #title> Catch Game For Cats </template>
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+          ><img
+            class="app-icon-m yellow-shadow pointer"
+            src="/icons/apps/paw.png" /></a
+      ></template>
+      <template #title
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+          >Catch Game For Cats</a
+        ></template
+      >
       <template #text>
         Kedim için indirdiğim uygulamların reklam dolu olması ile “Ben bu oyunu
         bozarım!” diyip üstüne de kendi kendime bir challenge olarak
@@ -75,8 +130,20 @@
     </AppForStoryMobile>
     <AppForStoryMobile>
       <template #icon
-        ><img class="app-icon-m yellow-shadow pointer" src="/icons/apps/four.png"/></template>
-      <template #title> 4 İşlem Oyunu </template>
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+          ><img
+            class="app-icon-m yellow-shadow pointer"
+            src="/icons/apps/four.png" /></a
+      ></template>
+      <template #title
+        ><a
+          target="_blank"
+          href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+          >4 İşlem Oyunu</a
+        ></template
+      >
       <template #text>
         İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
         geliştirdiğim oyunum. İçine özellikle 2 versiyon buluyor ve biri daha 15
@@ -96,10 +163,11 @@
         "
       >
         <div class="col-span-2 my-auto mx-auto pl-2">
-          <img
-            src="/thumbnails/tree.png"
-            class="pointer yellow-shadow m-auto"
-          />
+          <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
+            ><img
+              src="/thumbnails/tree.png"
+              class="pointer yellow-shadow m-auto"
+          /></a>
         </div>
         <div class="col-span-3 grid my-auto pl-2">
           <div class="font-robol sm:text-sm text-xs mb-4 text-center pl-6">
@@ -109,7 +177,9 @@
               bulunmakta.</span
             >
           </div>
-          <div class="w-1/2 mx-auto"><Button>Youtube</Button></div>
+          <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
+            ><div class="w-1/2 mx-auto"><Button>Youtube</Button></div></a
+          >
         </div>
       </div>
     </div>

@@ -18,19 +18,29 @@
     >
       <p>
         <span class="text-style">MaIl</span>
-        zeynepmusliofficial@gmail.com
+        <a target="_blank" href="mailto:zeynepmusliofficial@gmail.com"
+          >zeynepmusliofficial@gmail.com</a
+        >
       </p>
       <p>
         <span class="text-style">Mağaza Maıl</span>
-        rmb.tasarim@gmail.com
+        <a target="_blank" href="mailto:rmb.tasarim@gmail.com"
+          >rmb.tasarim@gmail.com</a
+        >
       </p>
       <p>
         <span class="text-style">Instagram</span>
-        /zeynep.muslim.mix
+        <a target="_blank" href="https://www.instagram.com/zeynep.muslim.mix/"
+          >/zeynep.muslim.mix</a
+        >
       </p>
       <p>
         <span class="text-style">YouTube</span>
-        /zeynepmüslim
+        <a
+          target="_blank"
+          href="https://www.youtube.com/channel/UCNp9gN3i1hSs4JvL6b3FZHw"
+          >/zeynepmüslim</a
+        >
       </p>
     </div>
   </div>

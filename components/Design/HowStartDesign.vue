@@ -33,22 +33,21 @@
           </p>
         </div>
         <div
-          class="
-            xl:col-span-2
-            grid
-            xl:row-span-2
-            grid-cols-2
-            mx-auto
-            w-full
-          "
+          class="xl:col-span-2 grid xl:row-span-2 grid-cols-2 mx-auto w-full"
         >
           <div class="mx-auto xl:my-auto">
             <ThumbnailForYoutube>
               <template #image>
-                <img class="thumanil-img yellow-shadow pointer" src="/thumbnails/six.png"/>
+                <a target="_blank" href="https://youtu.be/RCvq8qDjUzk"
+                  ><img
+                    class="thumanil-img yellow-shadow pointer"
+                    src="/thumbnails/six.png"
+                /></a>
               </template>
               <template #title>
-                <span>Hama Boncuk - Perler Beads // Hobi arayışı - 1</span>
+                <a target="_blank" href="https://youtu.be/RCvq8qDjUzk"
+                  ><div>Hama Boncuk - Perler Beads // Hobi arayışı - 1</div></a
+                >
               </template>
             </ThumbnailForYoutube>
           </div>
@@ -56,10 +55,16 @@
           <div class="mx-auto xl:my-auto">
             <ThumbnailForYoutube>
               <template #image>
-                <img class="thumanil-img yellow-shadow pointer" src="/thumbnails/seven.png"/>
+                <a target="_blank" href="https://youtu.be/DhjXeyP7QBM"
+                  ><img
+                    class="thumanil-img yellow-shadow pointer"
+                    src="/thumbnails/seven.png"
+                /></a>
               </template>
               <template #title>
-                <span>Bullet Journal - Planlayıcı // Hobi Arayışı - 2</span>
+                <a target="_blank" href="https://youtu.be/DhjXeyP7QBM"
+                  ><div>Bullet Journal - Planlayıcı // Hobi Arayışı - 2</div></a
+                >
               </template>
             </ThumbnailForYoutube>
           </div>

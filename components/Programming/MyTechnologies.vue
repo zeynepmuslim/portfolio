@@ -19,44 +19,44 @@
       "
     >
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/swift.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/swift.svg" />
         <span>Swift</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/js.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/js.svg" />
         <span>Javascript</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/vue.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/vue.svg" />
         <span>Vue.JS</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/nuxt.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/nuxt.svg" />
         <span>Nuxt.js</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/nodejs.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/nodejs.svg" />
         <span>Node.js</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/html.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/html.svg" />
         <span>html</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/css.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/css.svg" />
         <span>css</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/bootstrap.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/bootstrap.svg" />
         <span>bootstrap</span>
       </div>
       <div class="md:hidden block"></div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/tailwind.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/tailwind.svg" />
         <span>tailwind</span>
       </div>
       <div class="mx-auto">
-        <img class="icon yellow-shadow-icon pointer" src="/icons/tecs/git.svg"/>
+        <img class="icon yellow-shadow-icon" src="/icons/tecs/git.svg" />
         <span>gIt</span>
       </div>
     </div>

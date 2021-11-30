@@ -14,55 +14,101 @@
     <span class="header-style"><mark>uygulamalarım</mark></span>
     <div class="grid sm:mt-8 grid-cols-3 mt-8">
       <div class="flex flex-col">
-      <App>
-        <template #text>
-          <span class="text-style"
-            >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
-            oyunum.</span
+        <App>
+          <template #text>
+            <span class="text-style"
+              >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
+              oyunum.</span
+            >
+          </template>
+          <template #icon>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+              ><img
+                class="icon-size yellow-shadow pointer"
+                src="/icons/apps/bat.png"
+            /></a>
+          </template>
+          <template #title>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+              ><div class="title-style">Tap and Rise</div></a
+            >
+          </template>
+        </App>
+        <div class="w-3/4 mx-auto">
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
+            ><Button>App Store</Button></a
           >
-        </template>
-        <template #icon>
-          <img class="icon-size yellow-shadow pointer" src="/icons/apps/bat.png"/>
-        </template>
-        <template #title>
-          <span class="title-style">Tap and Rise</span>
-        </template>
-      </App>
-      <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+        </div>
       </div>
       <div class="flex flex-col">
-      <App class="">
-        <template #text>
-          <span class="text-style"
-            >Kendi kendime bir challenge olarak belirlediğim 12 saatte sıfırdan
-            uygulama çıkartmak hedefimin ürünü.</span
-          >
-        </template>
-        <template #icon>
-          <img class="icon-size yellow-shadow pointer" src="/icons/apps/paw.png"/>
-        </template>
-        <template #title>
-          <span class="title-style">Catch Game For Cats</span>
-        </template>
-      </App>
-      <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+        <App class="">
+          <template #text>
+            <span class="text-style"
+              >Kendi kendime bir challenge olarak belirlediğim 12 saatte
+              sıfırdan uygulama çıkartmak hedefimin ürünü.</span
+            >
+          </template>
+          <template #icon>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
+              ><img
+                class="icon-size yellow-shadow pointer"
+                src="/icons/apps/paw.png"
+            /></a>
+          </template>
+          <template #title>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
+              ><div class="title-style">Catch Game For Cats</div></a
+            >
+          </template>
+        </App>
+        <a
+          target="_blank"
+          href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
+          ><div class="w-3/4 mx-auto"><Button>App Store</Button></div></a
+        >
       </div>
       <div class="flex flex-col">
-      <App class="">
-        <template #text>
-          <span class="text-style"
-            >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
-            geliştirdiğim oyunum.</span
+        <App class="">
+          <template #text>
+            <span class="text-style"
+              >İlk göz bebeğim, sistemi deneyerek tanımak ve öğrenmek için
+              geliştirdiğim oyunum.</span
+            >
+          </template>
+          <template #icon>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+              ><img
+                class="icon-size yellow-shadow pointer"
+                src="/icons/apps/four.png"
+            /></a>
+          </template>
+          <template #title>
+            <a
+              target="_blank"
+              href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+              ><div class="title-style">4 İşlem Oyunu</div></a
+            >
+          </template>
+        </App>
+        <div class="w-3/4 mx-auto">
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
+            ><Button>App Store</Button></a
           >
-        </template>
-        <template #icon>
-          <img class="icon-size yellow-shadow pointer" src="/icons/apps/four.png"/>
-        </template>
-        <template #title>
-          <span class="title-style">4 İşlem Oyunu</span>
-        </template>
-      </App>
-       <div class="w-3/4 mx-auto"><Button>App Store</Button></div>
+        </div>
       </div>
     </div>
   </div>

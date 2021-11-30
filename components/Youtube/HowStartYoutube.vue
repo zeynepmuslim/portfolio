@@ -41,10 +41,16 @@
             <div class="thumnail-date">2018</div>
             <ThumbnailForYoutube>
               <template #image>
-                <img class="thumnail-img yellow-shadow pointer" src="/thumbnails/five.png"/>
+                <a target="_blank" href="https://youtu.be/xwsj0U9fIjE"
+                  ><img
+                    class="thumnail-img yellow-shadow pointer"
+                    src="/thumbnails/five.png"
+                /></a>
               </template>
               <template #title>
-                <span>Kedİ Sahİplenmeden Önce Alınması Gerekenler</span>
+                <a target="_blank" href="https://youtu.be/xwsj0U9fIjE"
+                  ><div>Kedİ Sahİplenmeden Önce Alınması Gerekenler</div></a
+                >
               </template>
             </ThumbnailForYoutube>
           </div>
@@ -53,10 +59,16 @@
             <div class="thumnail-date">2021</div>
             <ThumbnailForYoutube>
               <template #image>
-                <img class="thumnail-img yellow-shadow pointer" src="/thumbnails/one.png"/>
+                <a target="_blank" href="https://youtu.be/7fzOVtpPQAs"
+                  ><img
+                    class="thumnail-img yellow-shadow pointer"
+                    src="/thumbnails/one.png"
+                /></a>
               </template>
               <template #title>
-                <span>Yenİ Nesİl YKS'cİ olmak // 12. Sınıf Vlog</span>
+                <a target="_blank" href="https://youtu.be/7fzOVtpPQAs"
+                  ><div>Yenİ Nesİl YKS'cİ olmak // 12. Sınıf Vlog</div></a
+                >
               </template>
             </ThumbnailForYoutube>
           </div>
@@ -81,9 +93,9 @@ mark {
   width: 5.7em;
 }
 .thumnail-img {
-  @apply sm:w-52 row-span-2 w-40 
+  @apply sm:w-52 row-span-2 w-40;
 }
 .thumnail-date {
-  @apply text-center font-robol xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0 sm:ml-5 sm:text-lg sm:-mb-5 w-48 -mb-3
+  @apply text-center font-robol xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0 sm:ml-5 sm:text-lg sm:-mb-5 w-48 -mb-3;
 }
 </style>

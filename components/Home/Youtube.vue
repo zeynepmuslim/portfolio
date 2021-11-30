@@ -4,34 +4,58 @@
     <div class="grid md:grid-cols-4 grid-cols-2">
       <Thumbnail>
         <template #image>
-          <img class="thumnail yellow-shadow pointer " src="/thumbnails/one.png"/>
+          <a target="_blank" href="https://youtu.be/7fzOVtpPQAs"
+            ><img
+              class="thumnail yellow-shadow pointer"
+              src="/thumbnails/one.png"
+          /></a>
         </template>
         <template #title>
-          <span>Yenİ Nesil YKS'ci olmak // 12. Sınıf Vlog</span>
+          <a target="_blank" href="https://youtu.be/7fzOVtpPQAs"
+            ><div>Yenİ Nesil YKS'ci olmak // 12. Sınıf Vlog</div></a
+          >
         </template>
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <img class="thumnail yellow-shadow pointer " src="/thumbnails/two.png"/>
+          <a target="_blank" href="https://youtu.be/9u55X_pShQY"
+            ><img
+              class="thumnail yellow-shadow pointer"
+              src="/thumbnails/two.png"
+          /></a>
         </template>
         <template #title>
-          <span>Çimenlerde Ders, Yazılım, Kitap, Oyun // Karışık Vlog</span>
+          <a target="_blank" href="https://youtu.be/9u55X_pShQY"
+            ><div>Çimenlerde Ders, Yazılım, Kitap, Oyun // Karışık Vlog</div></a
+          >
         </template>
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <img class="thumnail yellow-shadow pointer " src="/thumbnails/tree.png"/>
+          <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
+            ><img
+              class="thumnail yellow-shadow pointer"
+              src="/thumbnails/tree.png"
+          /></a>
         </template>
         <template #title>
-          <span>Kedim için 12 Saatte Oyun Yaptım // Newbie Yazılımcı</span>
+          <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
+            ><div>Kedim için 12 Saatte Oyun Yaptım // Newbie Yazılımcı</div></a
+          >
         </template>
       </Thumbnail>
       <Thumbnail>
         <template #image>
-          <img class="thumnail yellow-shadow pointer " src="/thumbnails/four.png"/>
+          <a target="_blank" href="https://youtu.be/ULqccPp-P7M"
+            ><img
+              class="thumnail yellow-shadow pointer"
+              src="/thumbnails/four.png"
+          /></a>
         </template>
         <template #title>
-          <span>500 km // Bi' Değişik Ders Çalışma Günlüğü - 1</span>
+          <a target="_blank" href="https://youtu.be/ULqccPp-P7M"
+            ><div>500 km // Bi' Değişik Ders Çalışma Günlüğü - 1</div></a
+          >
         </template>
       </Thumbnail>
     </div>

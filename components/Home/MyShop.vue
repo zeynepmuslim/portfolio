@@ -28,10 +28,10 @@
             p-5
           "
         >
-          <img
+          <a target="_blank" href="https://www.instagram.com/rmb.tasarim/"><img
             class="object-cover rounded-full border-2 border-gray"
             src="/others/rmblogo.png"
-          />
+          /></a>
         </div>
         <div
           class="
@@ -67,11 +67,11 @@
     <div class="grid mx-auto lg:w-4/5 h-24 w-11/12 my-7 grid-cols-2">
       <div class="grid md:grid-rows-2">
         <span class="text">Yapılış aşamaları ve diğer her şey için</span>
-        <div class="button">Instagram</div>
+        <a target="_blank" href="https://www.instagram.com/rmb.tasarim/"><div class="button">Instagram</div></a>
       </div>
       <div class="grid md:grid-rows-2">
         <span class="text">Ürünleri incelemek ve satın almak için.</span>
-        <div class="button">MAĞAZA</div>
+        <a target="_blank" href="https://www.shopier.com/ShowProductNew/storefront.php?shop=rmbtasarim&sid=UUJmaXRTcjlXU0twSG16bjBfLTFfIF8g"><div class="button">MAĞAZA</div></a>
       </div>
     </div>
   </div>

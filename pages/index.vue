@@ -10,7 +10,7 @@
 
 <script>
 import Hero from '~/components/Hero.vue'
-import MyApps from '~/components/myApps.vue'
+import MyApps from '~/components/MyApps.vue'
 import MyShop from '~/components/MyShop.vue'
 import Youtube from '~/components/Youtube.vue'
 import MyHelpers from '~/components/MyHelpers.vue'
@@ -30,27 +30,27 @@ export default {
 <style>
 @font-face {
   font-family: 'BebasNeue';
-  src: url('~/fonts/BebasNeueRegular.ttf');
+  src: url('~assets/fonts/BebasNeueRegular.ttf');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Nickainley';
-  src: url('~/fonts/Nickainley.ttf');
+  src: url('~assets/fonts/Nickainley.ttf');
   font-weight: 400;
 }
 @font-face {
   font-family: 'RobotoLight';
-  src: url('~/fonts/RobotoLight.ttf');
+  src: url('~assets/fonts/RobotoLight.ttf');
   font-weight: 300;
 }
 @font-face {
   font-family: 'RobotoItalic';
-  src: url('~/fonts/RobotoItalic.ttf');
+  src: url('~assets/fonts/RobotoItalic.ttf');
   font-weight: 400;
 }
 @font-face {
   font-family: 'RobotoMedium';
-  src: url('~/fonts/RobotoMedium.ttf');
+  src: url('~assets/fonts/RobotoMedium.ttf');
   font-weight: 500;
 }
 

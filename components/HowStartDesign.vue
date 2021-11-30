@@ -44,25 +44,25 @@
           "
         >
           <div class="mx-auto xl:my-auto">
-            <ThumnailForYoutube>
+            <ThumbnailForYoutube>
               <template #image>
                 <div class="thumanil-img bg-tumSixY hover:bg-tumSix"></div>
               </template>
               <template #title>
                 <span>Hama Boncuk - Perler Beads // Hobi arayışı - 1</span>
               </template>
-            </ThumnailForYoutube>
+            </ThumbnailForYoutube>
           </div>
 
           <div class="mx-auto xl:my-auto">
-            <ThumnailForYoutube>
+            <ThumbnailForYoutube>
               <template #image>
                 <div class="thumanil-img bg-tumSevenY hover:bg-tumSeven"></div>
               </template>
               <template #title>
                 <span>Bullet Journal - Planlayıcı // Hobi Arayışı - 2</span>
               </template>
-            </ThumnailForYoutube>
+            </ThumbnailForYoutube>
           </div>
         </div>
       </div>
@@ -71,11 +71,11 @@
 </template>
 
 <script>
-import ThumnailForYoutube from '~/components/ThumnailForYoutube.vue'
+import ThumbnailForYoutube from '~/components/ThumbnailForYoutube.vue'
 export default {
   name: 'HowStartDesign',
   components: {
-    ThumnailForYoutube,
+    ThumbnailForYoutube,
   },
 }
 </script>

@@ -16,7 +16,7 @@
     <div class="md:row-span-4 sm:row-span-3 row-span-2">
       <img
         class="xl:h-96 lg:h-72 md:h-64 sm:h-52 h-auto mx-auto"
-        src="../src/vectors/avatar.svg"
+        src="/others/avatar.svg"
       />
     </div>
     <div

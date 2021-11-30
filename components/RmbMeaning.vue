@@ -3,19 +3,19 @@
     <span class="header-style"><mark>rmb'nin açılımı</mark></span>
     <div class="grid grid-cols-3 text-center font-bebas pt-3">
       <div class="img-div">
-        <img class="img-size" src="../src/img/raskov.png" />
+        <img class="img-size" src="/others/raskov.png" />
         <div>
           <span class="first-letter">R</span><span class="name">askov</span>
         </div>
       </div>
       <div class="img-div">
-        <img class="img-size" src="../src/img/madonna.png" />
+        <img class="img-size" src="/others/madonna.png" />
         <div>
           <span class="first-letter">m</span><span class="name">adonna</span>
         </div>
       </div>
       <div class="img-div">
-        <img class="img-size" src="../src/img/bihter.png" />
+        <img class="img-size" src="/others/bihter.png" />
         <div>
           <span class="first-letter">B</span><span class="name">İHter</span>
         </div>

@@ -3,7 +3,7 @@
     <div class="flex mx-auto">
       <img
         class="my-auto sm:mr-1 sm:h-4 h-3"
-        src="../src/vectors/copyright.svg"
+        src="/others/copyright.svg"
       />
       <span class="font-bebas sm:text-lg text-md -mb-1 ml-1"
         >Zeynep Müslİm</span

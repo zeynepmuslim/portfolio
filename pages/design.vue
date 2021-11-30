@@ -2,20 +2,20 @@
   <div>
     <HowStartDesign />
     <MyShopExample />
-    <RmbMeaning />
+    <RMBMeaning />
   </div>
 </template>
 
 <script>
 import HowStartDesign from '~/components/HowStartDesign.vue'
 import MyShopExample from '~/components/MyShopExample.vue'
-import RmbMeaning from '~/components/RmbMeaning.vue'
+import RMBMeaning from '~/components/RMBMeaning.vue'
 export default {
   name: 'Design',
   components: {
     HowStartDesign,
     MyShopExample,
-    RmbMeaning,
+    RMBMeaning,
   },
 }
 </script>

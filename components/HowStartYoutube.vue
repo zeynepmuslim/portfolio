@@ -39,26 +39,26 @@
         >
           <div class="mx-auto">
             <div class="thumnail-date">2018</div>
-            <ThumnailForYoutube>
+            <ThumbnailForYoutube>
               <template #image>
                 <div class="thumnail-img bg-tumFiveY hover:bg-tumFive"></div>
               </template>
               <template #title>
                 <span>Kedİ Sahİplenmeden Önce Alınması Gerekenler</span>
               </template>
-            </ThumnailForYoutube>
+            </ThumbnailForYoutube>
           </div>
 
           <div class="mx-auto">
             <div class="thumnail-date">2021</div>
-            <ThumnailForYoutube>
+            <ThumbnailForYoutube>
               <template #image>
                 <div class="thumnail-img bg-tumOneY hover:bg-tumOne"></div>
               </template>
               <template #title>
                 <span>Yenİ Nesİl YKS'cİ olmak // 12. Sınıf Vlog</span>
               </template>
-            </ThumnailForYoutube>
+            </ThumbnailForYoutube>
           </div>
         </div>
       </div>
@@ -67,11 +67,11 @@
 </template>
 
 <script>
-import ThumnailForYoutube from '~/components/ThumnailForYoutube.vue'
+import ThumbnailForYoutube from '~/components/ThumbnailForYoutube.vue'
 export default {
   name: 'HowStartYoutube',
   components: {
-    ThumnailForYoutube,
+    ThumbnailForYoutube,
   },
 }
 </script>

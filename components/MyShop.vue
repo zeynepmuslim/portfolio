@@ -30,7 +30,7 @@
         >
           <img
             class="object-cover rounded-full border-2 border-gray"
-            src="../src/img/rmblogo.png"
+            src="/others/rmblogo.png"
           />
         </div>
         <div

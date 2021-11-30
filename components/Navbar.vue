@@ -54,35 +54,35 @@
       <NuxtLink to="/"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="../src/icons/home.png" />
+            <img class="img-h" src="/icons/navbar/home.png" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/programming"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="../src/icons/code.png" />
+            <img class="img-h" src="/icons/navbar/code.png" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/youtube"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="../src/icons/youtube.png" />
+            <img class="img-h" src="/icons/navbar/youtube.png" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/design"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="../src/icons/design.png" />
+            <img class="img-h" src="/icons/navbar/design.png" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>
       <NuxtLink to="/communication"
         ><div class="nav-h-grid-mobile">
           <li class="icon-mobile">
-            <img class="img-h" src="../src/icons/phone.png" />
+            <img class="img-h" src="/icons/navbar/phone.png" />
           </li>
           <div class="bg-softYellow line-mobile"></div></div
       ></NuxtLink>

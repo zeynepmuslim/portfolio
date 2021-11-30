@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import HowStartPragramming from '~/components/HowStartProgramming.vue'
-import MyAppsStories from '~/components/MyAppsStories.vue'
-import MyTechnologys from '~/components/MyTechnologys.vue'
-import ThisSiteProcess from '~/components/ThisSiteProcess.vue'
+import HowStartPragramming from '~/components/Programming/HowStartProgramming.vue'
+import MyAppsStories from '~/components/Programming/MyAppsStories.vue'
+import MyTechnologys from '~/components/Programming/MyTechnologies.vue'
+import ThisSiteProcess from '~/components/Programming/ThisSiteProcess.vue'
 export default {
 name: 'Programming',
   components: {

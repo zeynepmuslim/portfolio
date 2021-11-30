@@ -173,7 +173,7 @@
 
 <script>
 import App from '~/components/App.vue'
-import AppForStoryMobile from '~/components/AppForStoryMobile.vue'
+import AppForStoryMobile from '~/components/Programming/AppForStoryMobile.vue'
 export default {
   name: 'MyAppsStories',
   components: {

@@ -119,6 +119,6 @@ export default {
   @apply md:hidden block mx-auto p-1.5 h-6;
 }
 .img-h {
-  @apply h-6;
+  @apply h-6 w-6;
 }
 </style>

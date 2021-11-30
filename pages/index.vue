@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue'
-import MyApps from '~/components/MyApps.vue'
-import MyShop from '~/components/MyShop.vue'
-import Youtube from '~/components/Youtube.vue'
-import MyHelpers from '~/components/MyHelpers.vue'
+import Hero from '~/components/Home/Hero.vue'
+import MyApps from '~/components/Home/MyApps.vue'
+import MyShop from '~/components/Home/MyShop.vue'
+import Youtube from '~/components/Home/Youtube.vue'
+import MyHelpers from '~/components/Home/MyHelpers.vue'
 
 export default {
   name: 'Index',
@@ -80,5 +80,9 @@ mark {
   background: #ffcf16;
   padding-bottom: 0.3em;
   border-radius: 20px;
+}
+
+.pointer {
+  @apply cursor-pointer
 }
 </style>

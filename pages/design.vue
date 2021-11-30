@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import HowStartDesign from '~/components/HowStartDesign.vue'
-import MyShopExample from '~/components/MyShopExample.vue'
-import RMBMeaning from '~/components/RMBMeaning.vue'
+import HowStartDesign from '~/components/Design/HowStartDesign.vue'
+import MyShopExample from '~/components/Design/MyShopExample.vue'
+import RMBMeaning from '~/components/Design/RMBMeaning.vue'
 export default {
   name: 'Design',
   components: {

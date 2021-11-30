@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import HowStartYoutube from "~/components/HowStartYoutube.vue"
-import PlayLists from "~/components/PlayLists.vue"
+import HowStartYoutube from "~/components/Youtube/HowStartYoutube.vue"
+import PlayLists from "~/components/Youtube/PlayLists.vue"
 export default {
   name: 'Youtube',
   components: {

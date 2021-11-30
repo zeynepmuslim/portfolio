@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import CommunicationInfo from '~/components/CommunicationInfo.vue'
+import CommunicationInfo from '~/components/Communation/CommunicationInfo.vue'
 export default {
   name: 'Communication',
   components: {

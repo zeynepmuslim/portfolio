@@ -5,10 +5,11 @@
       <div
         class="grid grid-rows-3 grid-cols-4 mt-7 font-robol xl:text-md text-sm"
       >
-        <div class="row-span-3 mx-auto my-auto mr-3 lg:ml-0 ">
+        <div class="row-span-3 mx-auto my-auto ">
           <img
             class="
               w-40
+              yellow-shadow
             "
             src="/others/earring.png"
           />
@@ -24,6 +25,7 @@
           <img
             class="
               w-40
+              yellow-shadow
             "
             src="/others/sticker.png"
           />
@@ -53,7 +55,7 @@
         <div class="row-span-2 w-44 mx-auto">
           <img
             class="
-              
+              yellow-shadow
               h-56
               w-44
             "
@@ -70,6 +72,7 @@
         <div class="row-span-2 w-44 mx-auto">
           <img
             class="
+            yellow-shadow
               h-56
               w-44
             "

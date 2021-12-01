@@ -5,21 +5,24 @@
         bg-lightGray
         sm:h-44
         h-auto
-        grid grid-cols-4
+        flex
+        flex-row
+        justify-evenly
         rounded-3xl
         shadow-xl
         hover:shadow-inner
-        p-4
+        py-4
+        pr-4
       "
     >
       <div class="my-auto mx-auto">
-        <slot name="icon"> </slot>
+        <slot name="icon"></slot>
       </div>
-      <div class="col-span-3 my-auto pl-8">
+      <div class=" my-auto sm:pl-8">
         <div class="font-robom sm:text-lg text-md">
           <slot name="title"></slot>
         </div>
-        <div class="font-robol sm:text-sm text-xs">
+        <div class="flex-grow font-robol sm:text-sm text-xs">
           <slot name="text"></slot>
         </div>
       </div>

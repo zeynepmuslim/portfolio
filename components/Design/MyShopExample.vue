@@ -46,31 +46,31 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-2 font-robol text-sm text-center md:hidden mt-7">
-      <div class="grid grid-rows-4">
-        <div class="row-span-2 w-44 mx-auto">
+    <div class="grid grid-cols-2 font-robol text-base text-center md:hidden mt-7 ">
+      <div class="flex flex-col">
+        <div class="w-full mx-auto">
           <a
             target="_blank"
             href="https://www.shopier.com/ShowProductNew/products.php?id=8091697"
-            ><img class="yellow-shadow h-56 w-44" src="/others/earring.png"
+            ><img class="yellow-shadow w-3/4 mx-auto" src="/others/earring.png"
           /></a>
         </div>
-        <div class="row-span-2 p-3">
+        <div class="p-3">
           Benim tarafımdan çizilip boyanmış, kesilip ısı ile yoğunlaştırılmış,
           epoksi reçine ile kaplanmış, aparatları takılmış ve fotoğraflanmış bir
           küpe çifti.
         </div>
       </div>
-      <div class="grid grid-rows-4">
-        <div class="row-span-2 w-44 mx-auto">
+      <div class="flex flex-col">
+        <div class="w-full mx-auto">
           <a
             target="_blank"
             href="https://www.shopier.com/ShowProductNew/products.php?id=8352589"
-            ><img class="yellow-shadow h-56 w-44" src="/others/sticker.png"
+            ><img class="yellow-shadow w-3/4 mx-auto" src="/others/sticker.png"
           /></a>
         </div>
 
-        <div class="row-span-2 p-3">
+        <div class="p-3">
           Evimde ürettiğim sticker setlerinde bir parça.
         </div>
       </div>

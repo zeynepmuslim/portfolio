@@ -27,15 +27,7 @@
           </p>
         </div>
         <div
-          class="
-            xl:col-span-2
-            grid
-            xl:row-span-2
-            grid-cols-2
-            -ml-2
-            mx-auto
-            w-full
-          "
+          class="xl:col-span-2 grid xl:row-span-2 grid-cols-2 mx-auto w-full"
         >
           <div class="mx-auto">
             <div class="thumnail-date">2018</div>
@@ -93,9 +85,9 @@ mark {
   width: 5.7em;
 }
 .thumnail-img {
-  @apply sm:w-52 row-span-2 w-40;
+  @apply sm:w-52 row-span-2 mx-auto w-4/5;
 }
 .thumnail-date {
-  @apply text-center font-robol xl:w-48 xl:pt-1 xl:ml-4 xl:text-xl lg:-mb-0 sm:ml-5 sm:text-lg sm:-mb-5 w-48 -mb-3;
+  @apply text-center font-robol xl:w-48 xl:pt-1  xl:text-xl lg:-mb-0 sm:text-lg sm:-mb-5 -mb-3;
 }
 </style>

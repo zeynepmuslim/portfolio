@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto resp-w sm:h-auto sm:mb-0 md:mt-16 mb-12 sm:-mt-20 -mt-32">
+  <div class="mx-auto resp-w sm:h-auto sm:mb-0 md:mt-16 mb-12 sm:-mt-20">
     <span class="header-style"><mark>rmb'nin açılımı</mark></span>
     <div class="grid grid-cols-3 text-center font-bebas pt-3">
       <div class="img-div">
@@ -46,7 +46,7 @@ mark {
   @apply text-2xl;
 }
 .img-size {
-  @apply sm:row-span-3 lg:h-56 md:h-48 sm:h-36 h-28 row-span-2;
+  @apply sm:row-span-3 lg:h-56 md:h-48 sm:h-36 h-24 row-span-2;
 }
 .img-div {
   @apply grid sm:grid-rows-4 grid-rows-3 mx-auto;

@@ -1,6 +1,6 @@
 <template>
   <div class="lg:m-0 md:mb-2">
-    <div class="mx-auto xl:pt-8 lg:pt-20 md:pt-24 pt-16 xl:mt-16 mb-8 resp-w">
+    <div class="mx-auto xl:pt-8 lg:pt-20 md:pt-24 pt-16 xl:mt-16 mb-8 resp-w px-4">
       <span class="header-style"><mark>iletişim bilgileri</mark></span>
     </div>
     <div
@@ -13,7 +13,8 @@
         w-11/12
         mx-auto
         font-robol
-        p-12
+        md:p-12
+        p-5
       "
     >
       <p>
@@ -58,6 +59,6 @@ mark {
 }
 
 .text-style {
-  @apply font-bebas text-xl pr-3;
+  @apply font-bebas sm:text-xl text-base pr-3;
 }
 </style>

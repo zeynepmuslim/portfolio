@@ -77,6 +77,6 @@ mark {
   width: 3.5em;
 }
 .thumnail {
-  @apply xl:w-52 lg:w-44 md:w-32 row-span-2 w-52;
+  @apply xl:w-52 lg:w-44 md:w-32 row-span-2;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto pl-3 grid lg:py-3 sm:pt-7 pt-4 grid-rows-2">
+  <div class="mx-auto grid sm:pt-7 pt-4 grid-rows-2">
     <slot name="image"></slot>
     <div
       class="
@@ -9,9 +9,8 @@
         lg:mt-0
         md:text-md
         sm:w-52 sm:text-lg
-        w-40
-        pr-1
-        text-md
+        w-full
+        text-base
         mt-2
       "
     >

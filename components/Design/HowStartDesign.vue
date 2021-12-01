@@ -35,7 +35,7 @@
         <div
           class="xl:col-span-2 grid xl:row-span-2 grid-cols-2 mx-auto w-full"
         >
-          <div class="mx-auto xl:my-auto">
+          <div class="mx-auto xl:my-auto px-2">
             <ThumbnailForYoutube>
               <template #image>
                 <a target="_blank" href="https://youtu.be/RCvq8qDjUzk"
@@ -52,7 +52,7 @@
             </ThumbnailForYoutube>
           </div>
 
-          <div class="mx-auto xl:my-auto">
+          <div class="mx-auto xl:my-auto px-2">
             <ThumbnailForYoutube>
               <template #image>
                 <a target="_blank" href="https://youtu.be/DhjXeyP7QBM"

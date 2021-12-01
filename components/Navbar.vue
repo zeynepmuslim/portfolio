@@ -20,7 +20,7 @@
       </div>
       <NuxtLink class="nav-h bg-white" to="/"
         ><div class="row-2">
-          <li class="text-block">ANA SAYFA</li>
+          <li class="text-block">Ana sayfa</li>
           <div class="bg-softYellow line-s"></div></div
       ></NuxtLink>
       <NuxtLink class="nav-h bg-white" to="/programming"

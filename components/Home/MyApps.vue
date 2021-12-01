@@ -38,7 +38,7 @@
             >
           </template>
         </App>
-        <div class="w-3/4 mx-auto">
+        <div class="sm:w-3/4 w-full mx-auto">
           <a
             target="_blank"
             href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
@@ -74,7 +74,9 @@
         <a
           target="_blank"
           href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
-          ><div class="w-3/4 mx-auto"><Button>App Store</Button></div></a
+          ><div class="sm:w-3/4 w-full mx-auto">
+            <Button>App Store</Button>
+          </div></a
         >
       </div>
       <div class="flex flex-col">
@@ -102,7 +104,7 @@
             >
           </template>
         </App>
-        <div class="w-3/4 mx-auto">
+        <div class="sm:w-3/4 w-full mx-auto">
           <a
             target="_blank"
             href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
@@ -136,10 +138,10 @@ mark {
 }
 
 .title-style {
-  @apply text-center font-robom lg:text-xl lg:py-1.5 sm:py-1;
+  @apply text-center font-robom lg:text-xl sm:text-base text-sm lg:py-1.5 sm:py-1;
 }
 
 .text-style {
-  @apply text-center font-robol md:py-4 sm:text-sm row-span-2 py-2 px-2 text-xs lg:h-24 md:h-28 sm:h-36 h-20;
+  @apply text-center font-robol md:py-4 sm:text-sm row-span-2 py-2 px-2 text-xs lg:h-24 md:h-28 sm:h-36;
 }
 </style>

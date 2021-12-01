@@ -156,31 +156,35 @@
         class="
           bg-lightGray
           grid grid-cols-5
+          grid-rows-3
           rounded-3xl
           shadow-xl
           hover:shadow-inner
           p-4
         "
       >
-        <div class="col-span-2 my-auto mx-auto pl-2">
+        <div class="col-span-2 row-span-2 my-auto mx-auto pl-2">
           <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
             ><img
               src="/thumbnails/tree.png"
               class="pointer yellow-shadow m-auto"
           /></a>
         </div>
-        <div class="col-span-3 grid my-auto pl-2">
-          <div class="font-robol sm:text-sm text-xs mb-4 text-center pl-6">
+        <div class="col-span-3 row-span-2 grid my-auto pl-2">
+          <div class="font-robol sm:text-sm text-xs mb-4 text-center sm:pl-6">
             <span name="text">
               YouTubeb kanalımda kendisinin yapıldığı o 12 saat ve ardından 36.
               saatte yayına girmesi süreçlerini anlatan bir video da
               bulunmakta.</span
             >
           </div>
-          <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
-            ><div class="w-1/2 mx-auto"><Button>Youtube</Button></div></a
-          >
+          
         </div>
+        <div class="col-span-5 pt-3">
+        <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
+            ><div class="w-full  mx-auto"><Button>Youtube</Button></div></a
+          >
+          </div>
       </div>
     </div>
   </div>
@@ -214,6 +218,6 @@ mark {
   @apply xl:h-20 xl:w-20 md:h-16 md:w-16 h-14 w-14 bg-contain bg-no-repeat;
 }
 .app-icon-m {
-  @apply object-cover w-20 h-20 bg-contain bg-no-repeat;
+  @apply w-2/3 mx-auto ;
 }
 </style>

@@ -8,19 +8,26 @@
       md:w-4/5
       sm:w-9/12 sm:h-72 sm:pt-28
       w-11/12
-      grid-cols-3
       pt-16
-      grid-row-4
+      grid-cols-3 grid-row-4
     "
   >
     <div class="md:row-span-4 sm:row-span-3 row-span-2">
       <img
-        class="xl:h-96 lg:h-72 md:h-64 sm:h-52 h-auto mx-auto"
+        class="xl:h-96 lg:h-72 md:h-64 sm:h-52 w-full mx-auto"
         src="/others/avatar.svg"
       />
     </div>
     <div
-      class="grid sm:grid-rows-2 sm:mt-2 row-span-2 col-span-2 grid-rows-4 mt-2"
+      class="
+        sm:grid sm:grid-rows-2 sm:mt-2
+        row-span-2
+        col-span-2
+        sm:mb-0
+        mb-12
+        flex flex-col
+        mt-2
+      "
     >
       <div class="sm:hidden block h-1/5"></div>
       <span
@@ -39,14 +46,15 @@
       <span
         class="
           font-nick
-          text-center
+          sm:text-center
+          text-left
           xl:text-6xl
           lg:text-5xl
           sm:text-4xl sm:pl-7
-          text-3xl
-          pl-3
+          text-2xl
+          pl-4
         "
-        >ben,<mark>Zeynep Müslim</mark></span
+        >ben,<mark class="text-center">Zeynep Müslim</mark></span
       >
     </div>
 
@@ -56,11 +64,11 @@
         xl:text-2xl xl:pt-3
         md:px-7 md:text-lg md:-mt-6
         sm:col-span-2 sm:text-md sm:pl-7 sm:pt-2 sm:text-left
-        text-md
+        text-sm
         px-3
-        pt-4
         col-span-3
         text-center
+        pt-4
       "
     >
       Gündüz tasarımcı, gece yazılımcı, haftada bir Youtuber geri kalan zamanda
@@ -99,7 +107,7 @@
           src="/icons/social/github.svg"
       /></a>
       <a
-        target="_blank"     
+        target="_blank"
         href="https://www.shopier.com/ShowProductNew/storefront.php?shop=rmbtasarim&sid=UUJmaXRTcjlXU0twSG16bjBfLTFfIF8g"
         ><img
           class="icons-style pointer yellow-shadow-icon"
@@ -126,6 +134,6 @@ mark {
 }
 
 .icons-style {
-  @apply mx-auto xl:w-12 xl:h-12 lg:w-10 lg:h-10 sm:w-9 sm:h-9 w-10 h-10;
+  @apply mx-auto my-auto xl:w-12 lg:w-10 sm:w-9 w-3/5;
 }
 </style>

@@ -5,15 +5,17 @@
       class="
         text-center
         font-bebas
-         xl:pt-1
-        
-        xl:text-xl
+        xl:pt-1 xl:text-xl
         lg:mt-0
-        xl:w-52 lg:w-44 md:w-32 w-52 md:-mt-3
-        md:pt-4
+        xl:w-52
+        lg:w-44
+        md:w-32
+        w-100
+        md:-mt-3 md:pt-4
         sm:pt-0
         pr-1
-        text-lg
+        sm:text-lg
+        text-base
       "
     >
       <slot name="title"></slot>

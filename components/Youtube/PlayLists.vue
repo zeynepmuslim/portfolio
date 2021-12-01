@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto xl:my-16 resp-w xl:-mt-4 sm:mt-7 mt-10">
+  <div class="mx-auto resp-w mt-10 sm:mt-7 xl:my-16">
     <span class="header-style"><mark>içeriklerim</mark></span>
     <div
       class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-2"

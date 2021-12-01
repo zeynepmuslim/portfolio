@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full fixed xl:-mt-16 bg-white mb-6 z-50">
+  <div class="w-full bg-white z-50">
     <ul
       class="
         md:grid

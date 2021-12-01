@@ -7,26 +7,22 @@ export default {
   head: {
     title: 'Zeynep Müslim',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: false,
@@ -36,32 +32,27 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
-    'nuxt-font-loader'
+    'nuxt-font-loader',
   ],
 
   fontLoader: {
-    url: "~/fonts/fontFace.css"
+    url: '~/fonts/fontFace.css',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    build: {
-      extend(config) {
-        config.performance.hints = false
-      },}
-  },
+  build: {},
   router: {
-    linkActiveClass: 'your-custom-active-link',
-    linkExactActiveClass: 'your-custom-exact-active-link',
-  }
+    linkActiveClass: 'zeynep-active-link',
+    linkExactActiveClass: 'zeynep-exact-active-link',
+  },
 }

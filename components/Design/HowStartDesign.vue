@@ -1,6 +1,6 @@
 <template>
-  <div class="lg:m-0 md:mb-8">
-    <div class="top-part">
+  <div class="top-part">
+    <div class="lg:m-0 md:mb-8">
       <span class="header-style"><mark>nasıl başladım</mark></span>
       <div class="grid xl:grid-cols-4">
         <div class="how-start-texts">

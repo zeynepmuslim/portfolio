@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto top-space resp-w">
+  <div class="mx-auto top-space mb-12 resp-w">
     <span class="header-style"><mark>içeriklerim</mark></span>
     <div
       class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-2"
@@ -58,7 +58,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=HnXlEnfBJzs&list=PL1E11TvvDMQzUFGGIYEA6A1LYle-0x3Dp"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><Button>Oynatma LİsteSİ</Button></a
         >
       </div>
       <div class="col-span-2 col-start-2 mt-8">
@@ -77,7 +77,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=RCvq8qDjUzk&list=PL1E11TvvDMQxqEBPsJeQiIztHEa5l8rVl"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><Button>Oynatma LİsteSİ</Button></a
         >
       </div>
       <div class="col-span-2 col-start-4 mt-8">
@@ -96,7 +96,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/playlist?list=PL1E11TvvDMQwq61VdzamwkP1R8-tPV0TR"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><Button>Oynatma LİsteSİ</Button></a
         >
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto grid sm:pt-7 pt-4 grid-rows-2">
+  <div class="mx-auto flex flex-col">
     <slot name="image"></slot>
     <div
       class="
@@ -7,7 +7,7 @@
         font-bebas
         xl:pt-1 xl:text-xl
         lg:mt-0
-        md:text-md
+        md:text-base
         sm:w-52 sm:text-lg
         w-full
         text-base

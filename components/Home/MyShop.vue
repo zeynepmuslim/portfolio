@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:mt-16 mx-auto resp-w sm:mt-11">
+  <div class="top-space mx-auto resp-w">
     <span class="header-style"><mark>küçük işletmem</mark></span>
     <div class="mx-auto xl:h-52 lg:h-48 lg:w-4/5 h-40 w-11/12 rounded-3xl">
       <div
@@ -44,7 +44,7 @@
               font-robol
               xl:text-xl
               md:text-lg
-              sm:text-md
+              sm:text-base
               text-xs
               row-span-2
             "
@@ -85,9 +85,6 @@ mark {
   width: 6em;
 }
 
-.button {
-  @apply mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black hover:text-yellow rounded-full text-center font-bebas xl:pt-2 xl:h-10 md:pt-1 md:text-xl pt-2 text-sm h-8 sm:w-2/5 w-1/2;
-}
 .text {
   @apply font-robol text-center lg:pt-4 md:pt-2 sm:pt-0 sm:text-sm text-xs px-2;
 }

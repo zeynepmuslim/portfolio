@@ -1,18 +1,18 @@
 <template>
   <div
     class="
+      mt-5
       grid
       mx-auto
-      xl:h-96 xl:my-16 xl:pt-10
+      xl:h-96
       lg:w-3/4
       md:w-4/5
-      sm:w-9/12 sm:h-72 sm:pt-28
+      sm:w-9/12 sm:h-72
       w-11/12
-      pt-16
       grid-cols-3 grid-row-4
     "
   >
-    <div class="md:row-span-4 sm:row-span-3 row-span-2">
+    <div class="md:row-span-4 sm:row-span-3 my-auto mx-auto row-span-2">
       <img
         class="xl:h-96 lg:h-72 md:h-64 sm:h-52 w-full mx-auto"
         src="/others/avatar.svg"
@@ -27,23 +27,14 @@
         mb-12
         flex flex-col
         mt-2
+        mx-auto
       "
     >
       <div class="sm:hidden block h-1/5"></div>
-      <span
-        class="
-          font-nick
-          xl:text-7xl
-          lg:text-6xl
-          md:pt-8
-          sm:text-5xl
-          pt-0
-          text-4xl
-          px-7
-        "
-        >Selamlar!</span
-      >
-      <span
+      <div class="font-nick xl:text-7xl md:pt-8 sm:text-6xl pt-0 text-4xl px-7">
+        Selamlar!
+      </div>
+      <div
         class="
           font-nick
           sm:text-center
@@ -54,15 +45,16 @@
           text-2xl
           pl-4
         "
-        >ben,<mark class="text-center">Zeynep Müslim</mark></span
       >
+        ben,<mark class="text-center">Zeynep Müslim</mark>
+      </div>
     </div>
 
     <div
       class="
         font-robol
         xl:text-2xl xl:pt-3
-        md:px-7 md:text-lg md:-mt-6
+        md:px-7 md:text-lg
         sm:col-span-2 sm:text-md sm:pl-7 sm:pt-2 sm:text-left
         text-sm
         px-3

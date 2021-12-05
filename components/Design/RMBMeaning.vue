@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto resp-w sm:h-auto sm:mb-0 md:mt-16 mb-12 sm:-mt-20">
+  <div class="mx-auto resp-w top-space">
     <span class="header-style"><mark>rmb'nin açılımı</mark></span>
     <div class="grid grid-cols-3 text-center font-bebas pt-3">
       <div class="img-div">
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="col-span-3 lg:px-36 md:px-16 px-12 font-robol">
-        Aynı youtube kanalımı açmam gibi burada da kedilerim payı büyük ve bende
+        Aynı YouTube kanalımı açmam gibi burada da kedilerim payı büyük ve bende
         bunun bir simgesi olarak mağazamın adını onların baş harfleri koymak
         istedim.
       </div>

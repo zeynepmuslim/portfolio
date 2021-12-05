@@ -1,6 +1,6 @@
 <template>
-  <div class="lg:m-0 md:mb-2">
-    <div class="mx-auto xl:pt-8 lg:pt-20 md:pt-24 pt-16 xl:mt-16 mb-8 resp-w px-4">
+  <div class="top-space">
+    <div class="mx-auto mb-8 resp-w px-4">
       <span class="header-style"><mark>iletişim bilgileri</mark></span>
     </div>
     <div

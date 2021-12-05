@@ -1,13 +1,8 @@
 <template>
   <div
     class="
+      top-space
       mx-auto
-      xl:mt-20
-      g:mt-44
-      sm:h-auto sm:mt-40 sm:mb-0
-      h-suto
-      mt-4
-      mb-12
       resp-w
     "
   >
@@ -17,7 +12,7 @@
         <App>
           <template #text>
             <span class="text-style"
-              >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
+              >En fonksiyonel,en çok özellik barındıran ve en büyük çaplı
               oyunum.</span
             >
           </template>
@@ -38,13 +33,11 @@
             >
           </template>
         </App>
-        <div class="sm:w-3/4 w-full mx-auto">
           <a
             target="_blank"
             href="https://apps.apple.com/us/app/tap-and-rise/id1547185387"
-            ><Button>App Store</Button></a
+            ><div class="button">APP Store</div></a
           >
-        </div>
       </div>
       <div class="flex flex-col">
         <App class="">
@@ -74,9 +67,7 @@
         <a
           target="_blank"
           href="https://apps.apple.com/us/app/catch-game-for-cats/id1560331647"
-          ><div class="sm:w-3/4 w-full mx-auto">
-            <Button>App Store</Button>
-          </div></a
+          ><div class="button">APP Store</div></a
         >
       </div>
       <div class="flex flex-col">
@@ -104,13 +95,12 @@
             >
           </template>
         </App>
-        <div class="sm:w-3/4 w-full mx-auto">
+        
           <a
             target="_blank"
             href="https://apps.apple.com/us/app/4-i-şlem-oyunu/id1528334211"
-            ><Button>App Store</Button></a
+            ><div class="button">APP Store</div></a
           >
-        </div>
       </div>
     </div>
   </div>
@@ -118,12 +108,10 @@
 
 <script>
 import App from '~/components/App.vue'
-import Button from '~/components/Button.vue'
 export default {
   name: 'MyApps',
   components: {
     App,
-    Button,
   },
 }
 </script>

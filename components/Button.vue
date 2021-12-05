@@ -11,8 +11,8 @@
       text-center
       font-bebas
       xl:h-10 xl:text-lg
-      md:text-md
-      pt-2
+      md:text-base
+      pt-1.5
       text-sm
       h-8
       w-3/4

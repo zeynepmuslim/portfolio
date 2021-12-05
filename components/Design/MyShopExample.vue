@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto resp-w sm:h-auto sm:mb-0 mt-6 mb-12">
+  <div class="mx-auto top-space resp-w">
     <span class="header-style"><mark>mağazamdan örnekler</mark></span>
     <div class="hidden md:block mx-auto">
       <div
@@ -37,7 +37,6 @@
             p-3
             h-26
             xl:m-0
-            lg:-mt-6
           "
         >
           <span class="lg:w-3/4 lg:h-1/2"

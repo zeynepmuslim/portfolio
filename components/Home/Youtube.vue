@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto h-auto resp-w md:mt-20 sm:mt-16 mt-16">
+  <div class="top-space mx-auto resp-w">
     <span class="header-style"><mark>youtube</mark></span>
     <div class="grid md:grid-cols-4 grid-cols-2">
       <Thumbnail>

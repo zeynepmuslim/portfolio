@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto resp-w sm:h-auto sm:mb-0 mt-20 mb-12">
+  <div class="mx-auto resp-w top-space">
     <span class="header-style"><mark>kullandığım teknolojiler</mark></span>
     <div
       class="

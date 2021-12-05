@@ -11,8 +11,8 @@
 
           <p class="p-2">
             Aralarından biri olan
-            <span class="text-roboi">“Shrink plastics”</span> adlı bir malzeme
-            ile üretebilceklerimin tek sınır hayal gücüm idi. İlk başta sadece
+            <span class="text-roboi">“shrink plastic”</span> adlı bir malzeme
+            ile üretebilceklerimin tek sınır hayal gücümdü. İlk başta sadece
             kendi için üretim yaptım ama çevremdekilerimn bunları çok sevmesi
             ile mağazamı açtım.
           </p>
@@ -40,7 +40,7 @@
               <template #image>
                 <a target="_blank" href="https://youtu.be/RCvq8qDjUzk"
                   ><img
-                    class="thumanil-img yellow-shadow pointer"
+                    class="thumanil-img mx-auto yellow-shadow pointer"
                     src="/thumbnails/six.png"
                 /></a>
               </template>
@@ -57,7 +57,7 @@
               <template #image>
                 <a target="_blank" href="https://youtu.be/DhjXeyP7QBM"
                   ><img
-                    class="thumanil-img yellow-shadow pointer"
+                    class="thumanil-img mx-auto yellow-shadow pointer"
                     src="/thumbnails/seven.png"
                 /></a>
               </template>

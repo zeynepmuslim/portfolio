@@ -19,7 +19,7 @@
         <slot name="icon"></slot>
       </div>
       <div class=" my-auto sm:pl-8">
-        <div class="font-robom sm:text-lg text-md">
+        <div class="font-robom sm:text-lg text-base">
           <slot name="title"></slot>
         </div>
         <div class="flex-grow font-robol sm:text-sm text-xs">

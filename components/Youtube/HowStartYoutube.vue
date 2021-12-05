@@ -88,6 +88,6 @@ mark {
   @apply sm:w-52 row-span-2 mx-auto w-4/5;
 }
 .thumnail-date {
-  @apply text-center font-robol xl:w-48 xl:pt-1  xl:text-xl lg:-mb-0 sm:text-lg sm:-mb-5 -mb-3;
+  @apply text-center font-robol xl:w-48 xl:pt-1  xl:text-xl sm:text-lg;
 }
 </style>

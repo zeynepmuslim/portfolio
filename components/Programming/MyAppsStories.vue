@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto sm:h-auto sm:mb-0 mt-6 mb-12 resp-w">
+  <div class="mx-auto resp-w top-space">
     <span class="header-style"><mark>uygulamalarımın hikayeleri</mark></span>
     <div class="md:grid grid-cols-3 mt-8 hidden">
       <App>
@@ -102,7 +102,7 @@
       <template #text>
         Oyun motoru eğimlerim sırasında öğrendiğim ünlü “Flappy Bird”
         mekanikleri ardından daha da geliştererek 4 farklı dil, online skor
-        tablosu, level sistemi, görünüş değiştirme gibi ekletiler ile
+        tablosu, level sistemi, görünüş değiştirme gibi eklentiler ile
         güçlendirdiğim en fonksiyonel uygulamam.
       </template>
     </AppForStoryMobile>
@@ -125,7 +125,7 @@
       <template #text>
         Kedim için indirdiğim uygulamların reklam dolu olması ile “Ben bu oyunu
         bozarım!” diyip üstüne de kendi kendime bir challenge olarak
-        belirlediğim 12 saatte sıfırdan uygulama çıkartmak hedefimin ürünü.
+        belirlediğim 12 saatte sıfırdan uygulama çıkartma hedefimin ürünü.
       </template>
     </AppForStoryMobile>
     <AppForStoryMobile>
@@ -151,12 +151,12 @@
         hali.
       </template>
     </AppForStoryMobile>
-    <div class="mt-8 md:w-3/4 mx-auto">
+    <div class="mt-4 md:w-3/4 mx-auto">
       <div
         class="
           bg-lightGray
           grid grid-cols-5
-          grid-rows-3
+          grid-rows-2
           rounded-3xl
           shadow-xl
           hover:shadow-inner
@@ -182,7 +182,7 @@
         </div>
         <div class="col-span-5 pt-3">
         <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
-            ><div class="w-full  mx-auto"><Button>Youtube</Button></div></a
+            ><div class="w-full mx-auto"><div class="button">Youtube</div></div></a
           >
           </div>
       </div>
@@ -192,14 +192,12 @@
 
 <script>
 import App from '~/components/App.vue'
-import Button from '~/components/Button.vue'
 import AppForStoryMobile from '~/components/Programming/AppForStoryMobile.vue'
 export default {
   name: 'MyAppsStories',
   components: {
     App,
     AppForStoryMobile,
-    Button,
   },
 }
 </script>

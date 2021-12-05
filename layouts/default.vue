@@ -49,7 +49,7 @@ export default {
 }
 
 .top-part {
-  @apply mx-auto pt-8 lg:pt-0 xl:my-16 lg:w-3/4 md:w-4/5 sm:w-9/12 w-11/12;
+  @apply mx-auto lg:mt-12 md:mt-16 mt-5 lg:w-3/4 md:w-4/5 sm:w-9/12 w-11/12;
 }
 
 .header-style {
@@ -97,5 +97,13 @@ mark {
   right: 0.23rem;
   top: 0.23rem;
   filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+
+.top-space {
+  @apply lg:mt-12 md:mt-16 mt-10
+}
+
+.button {
+  @apply mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black hover:text-yellow rounded-full text-center font-bebas xl:pt-2 xl:h-10 md:pt-1 md:text-xl pt-2 text-sm h-8 sm:w-2/5 w-2/3;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto resp-w mt-10 sm:mt-7 xl:my-16">
+  <div class="mx-auto top-space mb-12 resp-w">
     <span class="header-style"><mark>içeriklerim</mark></span>
     <div
       class="grid font-bebas text-center pt-8 md:hidden grid-cols-6 grid-rows-2"
@@ -20,7 +20,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=AUls_zPALTc&list=PL1E11TvvDMQwO_5y4LR_rFDn099gSxvKU"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div class="col-span-2">
@@ -39,7 +39,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=7fzOVtpPQAs&list=PL1E11TvvDMQwCTa5-mEAc9sCaFVA89pYk"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div class="col-span-2">
@@ -58,7 +58,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=HnXlEnfBJzs&list=PL1E11TvvDMQzUFGGIYEA6A1LYle-0x3Dp"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div class="col-span-2 col-start-2 mt-8">
@@ -77,7 +77,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=RCvq8qDjUzk&list=PL1E11TvvDMQxqEBPsJeQiIztHEa5l8rVl"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div class="col-span-2 col-start-4 mt-8">
@@ -96,7 +96,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/playlist?list=PL1E11TvvDMQwq61VdzamwkP1R8-tPV0TR"
-          ><Button>OynatmaLİsteSİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
     </div>
@@ -105,16 +105,14 @@
       class="
         md:grid
         sm:grid-cols-5
-        lg:h-24
         font-bebas
         text-center
         xl:mt-2 xl:text-xl
-        mb-44
         pt-8
         hidden
       "
     >
-      <div>
+      <div class="">
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=AUls_zPALTc&list=PL1E11TvvDMQwO_5y4LR_rFDn099gSxvKU"
@@ -130,7 +128,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=AUls_zPALTc&list=PL1E11TvvDMQwO_5y4LR_rFDn099gSxvKU"
-          ><Button>Oynatma LİSTESİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div>
@@ -149,7 +147,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=7fzOVtpPQAs&list=PL1E11TvvDMQwCTa5-mEAc9sCaFVA89pYk"
-          ><Button>Oynatma LİSTESİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div>
@@ -168,7 +166,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=HnXlEnfBJzs&list=PL1E11TvvDMQzUFGGIYEA6A1LYle-0x3Dp"
-          ><Button>Oynatma LİSTESİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div>
@@ -187,7 +185,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/watch?v=RCvq8qDjUzk&list=PL1E11TvvDMQxqEBPsJeQiIztHEa5l8rVl"
-          ><Button>Oynatma LİSTESİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
       <div>
@@ -206,7 +204,7 @@
         <a
           target="_blank"
           href="https://www.youtube.com/playlist?list=PL1E11TvvDMQwq61VdzamwkP1R8-tPV0TR"
-          ><Button>Oynatma LİSTESİ</Button></a
+          ><div class="button">youtube</div></a
         >
       </div>
     </div>
@@ -214,11 +212,9 @@
 </template>
 
 <script>
-import Button from '~/components/Button.vue'
 export default {
   name: 'PlayLists',
   components: {
-    Button,
   },
 }
 </script>
@@ -237,9 +233,12 @@ mark {
   @apply pt-1 mb-2 text-xl;
 }
 .div-style-m {
-  @apply grid grid-rows-5 bg-red-400;
+  @apply grid grid-rows-2 bg-red-400;
 }
 .icon {
   @apply row-span-3 mb-3 lg:w-24 lg:h-24 md:w-20 md:h-20 mx-auto;
+}
+.button {
+  @apply w-4/5
 }
 </style>

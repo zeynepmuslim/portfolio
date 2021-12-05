@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto h-auto resp-w lg:my-12 md:mt-3 mt-8">
+  <div class="mx-auto resp-w top-space">
     <span class="header-style"><mark>yardımcılarım</mark></span>
     <div class="lg:h-24 md:h-20 md:grid-cols-6 md:mt-7 md:grid hidden">
       <img

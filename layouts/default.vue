@@ -102,4 +102,8 @@ mark {
 .top-space {
   @apply lg:mt-12 md:mt-16 mt-10
 }
+
+.button {
+  @apply mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black hover:text-yellow rounded-full text-center font-bebas xl:pt-2 xl:h-10 md:pt-1 md:text-xl pt-2 text-sm h-8 sm:w-2/5 w-2/3;
+}
 </style>

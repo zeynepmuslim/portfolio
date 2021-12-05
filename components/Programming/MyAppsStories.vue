@@ -156,7 +156,7 @@
         class="
           bg-lightGray
           grid grid-cols-5
-          grid-rows-3
+          grid-rows-2
           rounded-3xl
           shadow-xl
           hover:shadow-inner
@@ -182,7 +182,7 @@
         </div>
         <div class="col-span-5 pt-3">
         <a target="_blank" href="https://youtu.be/BXSjI45fGPI"
-            ><div class="w-full  mx-auto"><Button>Youtube</Button></div></a
+            ><div class="w-full mx-auto"><div class="button">Youtube</div></div></a
           >
           </div>
       </div>
@@ -192,14 +192,12 @@
 
 <script>
 import App from '~/components/App.vue'
-import Button from '~/components/Button.vue'
 import AppForStoryMobile from '~/components/Programming/AppForStoryMobile.vue'
 export default {
   name: 'MyAppsStories',
   components: {
     App,
     AppForStoryMobile,
-    Button,
   },
 }
 </script>

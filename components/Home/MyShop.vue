@@ -85,9 +85,6 @@ mark {
   width: 6em;
 }
 
-.button {
-  @apply mx-auto transition duration-500 ease-in-out bg-yellow hover:bg-black hover:text-yellow rounded-full text-center font-bebas xl:pt-2 xl:h-10 md:pt-1 md:text-xl pt-2 text-sm h-8 sm:w-2/5 w-1/2;
-}
 .text {
   @apply font-robol text-center lg:pt-4 md:pt-2 sm:pt-0 sm:text-sm text-xs px-2;
 }

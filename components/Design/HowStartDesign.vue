@@ -11,8 +11,8 @@
 
           <p class="p-2">
             Aralarından biri olan
-            <span class="text-roboi">“Shrink plastics”</span> adlı bir malzeme
-            ile üretebilceklerimin tek sınır hayal gücüm idi. İlk başta sadece
+            <span class="text-roboi">“shrink plastic”</span> adlı bir malzeme
+            ile üretebilceklerimin tek sınır hayal gücümdü. İlk başta sadece
             kendi için üretim yaptım ama çevremdekilerimn bunları çok sevmesi
             ile mağazamı açtım.
           </p>

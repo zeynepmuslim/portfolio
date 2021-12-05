@@ -12,7 +12,7 @@
         <App>
           <template #text>
             <span class="text-style"
-              >En çok fonksiyonel ve özelllik barındıran ve büyük çaplı
+              >En fonksiyonel,en çok özellik barındıran ve en büyük çaplı
               oyunum.</span
             >
           </template>

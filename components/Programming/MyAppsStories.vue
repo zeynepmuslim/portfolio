@@ -102,7 +102,7 @@
       <template #text>
         Oyun motoru eğimlerim sırasında öğrendiğim ünlü “Flappy Bird”
         mekanikleri ardından daha da geliştererek 4 farklı dil, online skor
-        tablosu, level sistemi, görünüş değiştirme gibi ekletiler ile
+        tablosu, level sistemi, görünüş değiştirme gibi eklentiler ile
         güçlendirdiğim en fonksiyonel uygulamam.
       </template>
     </AppForStoryMobile>
@@ -125,7 +125,7 @@
       <template #text>
         Kedim için indirdiğim uygulamların reklam dolu olması ile “Ben bu oyunu
         bozarım!” diyip üstüne de kendi kendime bir challenge olarak
-        belirlediğim 12 saatte sıfırdan uygulama çıkartmak hedefimin ürünü.
+        belirlediğim 12 saatte sıfırdan uygulama çıkartma hedefimin ürünü.
       </template>
     </AppForStoryMobile>
     <AppForStoryMobile>

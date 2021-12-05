@@ -4,7 +4,7 @@
       <span class="header-style"><mark>nasıl başladım</mark></span>
       <div class="how-start-texts">
         <p class="p-2">
-          15 yaşımdayken tatilde canımın sıkılmasıyla başladı şu an mesleğim
+          15 yaşımdayken tatilde canımın sıkılmasıyla başladı, şu an mesleğim
           yapmak istediğim yazılım yolculuğum. Sadece YouTube’a yazılan
           <span class="font-roboi">“html dersi”</span> yeterli bir başlangıç
           adımıydı.
@@ -24,7 +24,7 @@
         <p class="p-2">
           Şu an ise 18 yaşındayım ve web odaklı çalışmalarıma gönüllü stajyer
           olarak <span class="font-roboi">Ravertan CTS</span>’de devam ediyor,
-          yeni şeyler öğreniyorum:
+          yeni şeyler öğreniyorum.
         </p>
       </div>
     </div>

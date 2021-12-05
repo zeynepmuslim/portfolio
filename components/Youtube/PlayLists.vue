@@ -105,7 +105,6 @@
       class="
         md:grid
         sm:grid-cols-5
-        lg:h-24
         font-bebas
         text-center
         xl:mt-2 xl:text-xl

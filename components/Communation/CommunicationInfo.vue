@@ -20,7 +20,7 @@
       <p>
         <span class="text-style">MaIl</span>
         <a target="_blank" href="mailto:zeynepmusliofficial@gmail.com"
-          >zeynepmusliofficial@gmail.com</a
+          >zeynep.muslim@icloud.com</a
         >
       </p>
       <p>
